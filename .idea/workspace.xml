@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl919/src/x920/DeptEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl919/src/x920/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xl919/x919/StrMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl919/x919/StrMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/xl919/x919/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl919/x919/Test.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -28,7 +38,9 @@
     <option name="height" value="812" />
   </component>
   <component name="ProjectId" id="1R4xklpGCADE8Jwi86lCxYpjtAZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xl/longRoad/java/learnJava/xl919/src/x919/Str_Equals.java&#10;str1&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.message.stream.StreamHeader11" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -51,7 +63,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyClass">
+  <component name="RunManager" selected="Application.DeptEmp">
+    <configuration name="DeptEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x920.DeptEmp" />
+      <module name="xl919" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="x920.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn920.Main" />
       <module name="lxf" />
@@ -59,6 +85,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learn920.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x920.Main" />
+      <module name="xl919" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="x920.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,36 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x919.MyLean" />
-      <module name="xl919" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="x919.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StrMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="x919.StrMethod" />
-      <module name="xl919" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="x919.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Str_Equals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x919.Str_Equals" />
       <module name="xl919" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -274,20 +286,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyLean" />
-      <item itemvalue="Application.Str_Equals" />
       <item itemvalue="Application.StrMethod" />
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MyClass" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.DeptEmp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeptEmp" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MyClass" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.StrMethod" />
-        <item itemvalue="Application.MyLean" />
-        <item itemvalue="Application.Str_Equals" />
       </list>
     </recent_temporary>
   </component>
@@ -306,12 +318,23 @@
       <workItem from="1565317704799" duration="531000" />
       <workItem from="1568183356171" duration="4634000" />
       <workItem from="1568901970810" duration="6711000" />
-      <workItem from="1568940322088" duration="13322000" />
+      <workItem from="1568940322088" duration="18178000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
