@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xl919/src/x920/DeptEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xl919/src/x920/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl919/x919/StrMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl919/x919/StrMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl919/x919/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl919/x919/Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,8 +311,16 @@
       <workItem from="1565317704799" duration="531000" />
       <workItem from="1568183356171" duration="4634000" />
       <workItem from="1568901970810" duration="6711000" />
-      <workItem from="1568940322088" duration="18178000" />
+      <workItem from="1568940322088" duration="18420000" />
     </task>
+    <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
+      <created>1568992410053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568992410053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +336,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
   </component>
   <component name="masterDetails">
     <states>
