@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl919/src/x0921/ProvinceCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl923/src/learn/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl923/src/learn/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl923/xl923.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,14 +58,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
-  </component>
   <component name="ProjectId" id="1R4xklpGCADE8Jwi86lCxYpjtAZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xl/longRoad/java/learnJava/xl919/src/x919/Str_Equals.java&#10;str1&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.message.stream.StreamHeader11" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeptEmp">
+  <component name="RunManager" selected="Application.Link">
     <configuration name="DeptEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="x920.DeptEmp" />
       <module name="xl919" />
@@ -71,13 +100,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn920.Main" />
-      <module name="lxf" />
+    <configuration name="Link" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.Link" />
+      <module name="xl923" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn920.*" />
+          <option name="PATTERN" value="learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.MainClass" />
+      <module name="xl923" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="x919.StrMethod" />
+    <configuration name="ProvinceCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="x0921.ProvinceCity" />
       <module name="xl919" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="x919.*" />
+          <option name="PATTERN" value="x0921.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,22 +322,37 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StrMethod" />
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MyClass" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.DeptEmp" />
+      <item itemvalue="Application.ProvinceCity" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.Link" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Link" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.ProvinceCity" />
         <item itemvalue="Application.DeptEmp" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StrMethod" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@fdc62273" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -311,7 +369,9 @@
       <workItem from="1565317704799" duration="531000" />
       <workItem from="1568183356171" duration="4634000" />
       <workItem from="1568901970810" duration="6711000" />
-      <workItem from="1568940322088" duration="18420000" />
+      <workItem from="1568940322088" duration="20050000" />
+      <workItem from="1569029755789" duration="8171000" />
+      <workItem from="1569243314240" duration="3836000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
@@ -331,7 +391,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -340,91 +402,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
     <option name="LAST_COMMIT_MESSAGE" value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>xl423</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
