@@ -20,6 +20,15 @@ class Node {
     }
 }
 
+// Node 节点 处理逻辑
+class Process{
+   private Node root;
+
+   public void add(Node node){
+
+   }
+
+}
 
 public class Link{
     public static void main(String ags []){
