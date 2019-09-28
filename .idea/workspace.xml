@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/lxf/src/learn920/Learn0926.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xl924/src/jc0926/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl924/src/pkg0928/Learn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lxf/learn920/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lxf/learn920/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lxf/learn920/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lxf/learn920/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lxf/learn920/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lxf/learn920/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/xl924/LinkLearn/Link$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/LinkLearn/Link$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/xl924/LinkLearn/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/LinkLearn/Link.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/xl924/LinkLearn/LinkDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/LinkLearn/LinkDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +84,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkDemo">
+  <component name="RunManager" selected="Application.Learn">
+    <configuration name="Learn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg0928.Learn" />
+      <module name="xl924" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pkg0928.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Learn0926" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learn920.Learn0926" />
       <module name="lxf" />
@@ -139,20 +148,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="learn0924.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn.MainClass" />
-      <module name="xl923" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,20 +307,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.Link" />
       <item itemvalue="Application.LinkDome" />
       <item itemvalue="Application.LinkDemo" />
       <item itemvalue="Application.Learn0926" />
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.Learn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Learn" />
         <item itemvalue="Application.LinkDemo" />
         <item itemvalue="Application.Learn0926" />
         <item itemvalue="Application.LinkDome" />
         <item itemvalue="Application.Link" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +362,7 @@
       <workItem from="1569399664822" duration="2049000" />
       <workItem from="1569464838595" duration="69000" />
       <workItem from="1569464929684" duration="961000" />
-      <workItem from="1569503738382" duration="4617000" />
+      <workItem from="1569503738382" duration="8688000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
