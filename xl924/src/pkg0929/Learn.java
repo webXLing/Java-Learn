@@ -1,4 +1,8 @@
 package pkg0929;
+
+/**
+ * 接口
+ */
 class A{
     public A(){
         System.out.println("wo shi A");
