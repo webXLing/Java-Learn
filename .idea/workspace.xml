@@ -2,17 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/xl924/src/pkg1008/Learn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xl924/src/pkg1008/Learn1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/lean1/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/DemoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/DemoPrivate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterfaceConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterfaceDefault.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterfaceDefaultA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterfacePrivate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn/MyInterfacePrivateImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn2/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn4/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn4/Fu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/xl1011/learn4/Zi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/lean1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/DemoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/DemoPrivate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceDefaultA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn4/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn4/Fu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/src/learn4/Zi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1011/xl1011.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo1/DemoFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo2/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo2/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo2/Nab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo2/sub/Anothor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo2/sub/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo3/Arr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/demo3/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class/Demo01InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Demo01InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Myclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_nm_class/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_nm_class/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xl1012/src/inner_nm_class/MyInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/Learn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/Learn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/pkg0929/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl924/pkg0929/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xl924/src/pkg0929/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/pkg0929/Learn.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -71,12 +109,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xl1012/src/inner_class2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="inner_nm_class" />
+      <recent name="inner_class2.inner_class" />
+      <recent name="inner_class" />
+      <recent name="learn4" />
+      <recent name="learn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xl1012/src/inner_class2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,14 +140,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Learn1">
-    <configuration name="Learn (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg0929.Learn" />
-      <module name="xl924" />
+  <component name="RunManager" selected="Application.Arr">
+    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo3.Arr" />
+      <module name="xl1012" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg0929.*" />
+          <option name="PATTERN" value="demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Learn (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg1008.Learn" />
-      <module name="xl924" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn4.Demo" />
+      <module name="xl1011" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg1008.*" />
+          <option name="PATTERN" value="learn4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Learn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg0928.Learn" />
-      <module name="xl924" />
+    <configuration name="Demo01InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_class.Demo01InnerClass" />
+      <module name="xl1012" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg0928.*" />
+          <option name="PATTERN" value="inner_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Learn0929" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learn920.Learn0929" />
-      <module name="lxf" />
+    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_nm_class.DemoMain" />
+      <module name="xl1012" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learn920.*" />
+          <option name="PATTERN" value="inner_nm_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Learn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg1008.Learn1" />
-      <module name="xl924" />
+    <configuration name="DemoPrivate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learn.DemoPrivate" />
+      <module name="xl1011" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg1008.*" />
+          <option name="PATTERN" value="learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,20 +363,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Learn" />
-      <item itemvalue="Application.Learn0929" />
-      <item itemvalue="Application.Learn (1)" />
+      <item itemvalue="Application.DemoPrivate" />
+      <item itemvalue="Application.Demo" />
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Learn (2)" />
-      <item itemvalue="Application.Learn1" />
+      <item itemvalue="Application.Demo01InnerClass" />
+      <item itemvalue="Application.DemoMain" />
+      <item itemvalue="Application.Arr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Learn1" />
-        <item itemvalue="Application.Learn (2)" />
-        <item itemvalue="Application.Learn (1)" />
-        <item itemvalue="Application.Learn0929" />
-        <item itemvalue="Application.Learn" />
+        <item itemvalue="Application.Arr" />
+        <item itemvalue="Application.DemoMain" />
+        <item itemvalue="Application.Demo01InnerClass" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.DemoPrivate" />
       </list>
     </recent_temporary>
   </component>
@@ -371,6 +421,8 @@
       <workItem from="1569503738382" duration="8688000" />
       <workItem from="1569742732089" duration="5584000" />
       <workItem from="1570543951196" duration="3160000" />
+      <workItem from="1570797169806" duration="8877000" />
+      <workItem from="1570964742632" duration="8834000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
