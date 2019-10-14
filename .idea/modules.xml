@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxf/lxf.iml" filepath="$PROJECT_DIR$/lxf/lxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/xl1011/xl1011.iml" filepath="$PROJECT_DIR$/xl1011/xl1011.iml" />
       <module fileurl="file://$PROJECT_DIR$/xl1012/xl1012.iml" filepath="$PROJECT_DIR$/xl1012/xl1012.iml" />
