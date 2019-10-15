@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/dataStructure/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Gener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterfaceImpl1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterfaceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/doudizhu/Doudizhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/list/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/list/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/list/MyVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MyHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MyLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MySet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/myset/kbcs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="myset" />
+      <recent name="demo.gener" />
       <recent name="bzl" />
       <recent name="date" />
       <recent name="inner_nm_class" />
-      <recent name="inner_class2.inner_class" />
-      <recent name="inner_class" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xl1012/src/inner_class2" />
@@ -97,14 +113,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (2)">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo1.Demo" />
+  <component name="RunManager" selected="Application.kbcs">
+    <configuration name="MyLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myset.MyLinkedHashSet" />
       <module name="Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1.*" />
+          <option name="PATTERN" value="myset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.gener.Demo" />
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.MyLinkedList" />
       <module name="Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.gener.*" />
+          <option name="PATTERN" value="list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stringbuilder.Demo" />
-      <module name="API" />
+    <configuration name="MySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myset.MySet" />
+      <module name="Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stringbuilder.*" />
+          <option name="PATTERN" value="myset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Foreach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo1.Foreach" />
+    <configuration name="MySet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myset.MySet1" />
       <module name="Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo1.*" />
+          <option name="PATTERN" value="myset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.iterator.iter" />
+    <configuration name="kbcs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myset.kbcs" />
       <module name="Collection" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.iterator.*" />
+          <option name="PATTERN" value="myset.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,19 +337,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.iter" />
-      <item itemvalue="Application.Foreach" />
-      <item itemvalue="Application.Demo (2)" />
+      <item itemvalue="Application.MyLinkedList" />
+      <item itemvalue="Application.MySet" />
+      <item itemvalue="Application.MySet1" />
+      <item itemvalue="Application.MyLinkedHashSet" />
+      <item itemvalue="Application.kbcs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Foreach" />
-        <item itemvalue="Application.iter" />
-        <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.kbcs" />
+        <item itemvalue="Application.MyLinkedHashSet" />
+        <item itemvalue="Application.MySet1" />
+        <item itemvalue="Application.MySet" />
+        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +397,7 @@
       <workItem from="1570797169806" duration="8877000" />
       <workItem from="1570964742632" duration="8969000" />
       <workItem from="1571051632596" duration="10448000" />
+      <workItem from="1571140580776" duration="9374000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
