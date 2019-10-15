@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/API/src/bzl/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/bzl/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/canlendar/CanlendarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/date/Demo01Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/date/Demo01DateFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/stringbuilder/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/src/system/MySystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/Collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/iterator/iter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo1/Foreach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Foreach">
+  <component name="RunManager" selected="Application.Demo (2)">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo1.Demo" />
       <module name="Collection" />
@@ -116,6 +105,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.gener.Demo" />
+      <module name="Collection" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.gener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,20 +147,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="system.MySystem" />
-      <module name="API" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,19 +321,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.MySystem" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.iter" />
       <item itemvalue="Application.Foreach" />
+      <item itemvalue="Application.Demo (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.Foreach" />
         <item itemvalue="Application.iter" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.MySystem" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +380,7 @@
       <workItem from="1570543951196" duration="3160000" />
       <workItem from="1570797169806" duration="8877000" />
       <workItem from="1570964742632" duration="8969000" />
-      <workItem from="1571051632596" duration="8686000" />
+      <workItem from="1571051632596" duration="10448000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
