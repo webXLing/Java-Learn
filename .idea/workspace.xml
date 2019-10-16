@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/Collection/src/dataStructure/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Gener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterfaceImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterfaceImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/doudizhu/Doudizhu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/list/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/list/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/list/MyVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MyHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MyLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/MySet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection/src/myset/kbcs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/collections/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collection/src/collections/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/DemoEntrySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/DemoKeySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/DemoLinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/HashMapSavePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/MyDebug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/MyHashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/src/demo/Map/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/readme.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +87,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ReadMe" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.Map" />
+      <recent name="collections" />
       <recent name="myset" />
       <recent name="demo.gener" />
       <recent name="bzl" />
-      <recent name="date" />
-      <recent name="inner_nm_class" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/xl1012/src/inner_class2" />
@@ -113,14 +113,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.kbcs">
-    <configuration name="MyLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myset.MyLinkedHashSet" />
-      <module name="Collection" />
+  <component name="RunManager" selected="Application.MyDebug">
+    <configuration name="DemoEntrySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.DemoEntrySet" />
+      <module name="Map" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myset.*" />
+          <option name="PATTERN" value="demo.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.MyLinkedList" />
-      <module name="Collection" />
+    <configuration name="HashMapSavePerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.HashMapSavePerson" />
+      <module name="Map" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.*" />
+          <option name="PATTERN" value="demo.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myset.MySet" />
-      <module name="Collection" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.MapTest" />
+      <module name="Map" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myset.*" />
+          <option name="PATTERN" value="demo.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,13 +156,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySet1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myset.MySet1" />
-      <module name="Collection" />
+    <configuration name="MyDebug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.MyDebug" />
+      <module name="Map" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="myset.*" />
+          <option name="PATTERN" value="demo.Map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashtable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Map.MyHashtable" />
+      <module name="Map" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,20 +186,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="kbcs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myset.kbcs" />
-      <module name="Collection" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,19 +337,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.MyLinkedList" />
-      <item itemvalue="Application.MySet" />
-      <item itemvalue="Application.MySet1" />
-      <item itemvalue="Application.MyLinkedHashSet" />
-      <item itemvalue="Application.kbcs" />
+      <item itemvalue="Application.DemoEntrySet" />
+      <item itemvalue="Application.HashMapSavePerson" />
+      <item itemvalue="Application.MyHashtable" />
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.MyDebug" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.kbcs" />
-        <item itemvalue="Application.MyLinkedHashSet" />
-        <item itemvalue="Application.MySet1" />
-        <item itemvalue="Application.MySet" />
-        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.MyDebug" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.MyHashtable" />
+        <item itemvalue="Application.HashMapSavePerson" />
+        <item itemvalue="Application.DemoEntrySet" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +397,8 @@
       <workItem from="1570797169806" duration="8877000" />
       <workItem from="1570964742632" duration="8969000" />
       <workItem from="1571051632596" duration="10448000" />
-      <workItem from="1571140580776" duration="9374000" />
+      <workItem from="1571140580776" duration="9571000" />
+      <workItem from="1571228913450" duration="8601000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
@@ -454,6 +455,16 @@
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
           <line>136</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Map/src/demo/Map/DemoLinkedHashMap.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Map/src/demo/Map/MyDebug.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
