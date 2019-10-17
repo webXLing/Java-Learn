@@ -50,3 +50,29 @@ Map 集合 是 双列集合 一个元素包含 两个值 K V
 
      Hashtable 和Vector集合一样 在jdk1.2 之后被更先进的集合取代了（HashMap，ArrayList） 取代了
      Hashtable 的子类 Properties仍活跃
+
+10月17日  Exception 编译期异常 要么throw 要么try catch
+    java.lang.throwable 类 是java中错误和异常的超类
+        异常：编译期异常
+            runtimeException 运行期出现的异常 交给 JVM处理
+    通过try catch 抓取错误
+
+    多个异常处理
+        1.多个异常分别处理
+        2.多个异常一次捕获，多次处理
+            一个try 多个catch
+            如果catch 的异常变量 如果有子父类 关系 必须子类写上面父类写下面
+        3.多个异常一次捕获一次处理
+
+    throws 处理异常对象 会抛给方法的调用者 最终交割iJVM 处理 =》终止程序
+    使用格式
+        返回值类型 方法名 （参数）throw AAAException,BBb Exception{
+            throw new AAAException();
+            throw new BBAException();
+        }
+
+        Throwable 中三个 方法
+
+            finally 无论是否出现异常  都会执行 一般用于资源释放
+
+            如果finally 有return  返回的是finally 中的 不是 try 中的
