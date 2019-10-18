@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/Exception/Exception.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/CatchErrs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Fu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/MyThrows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/ReadMe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -332,10 +325,10 @@
     <list>
       <item itemvalue="Application.MapTest" />
       <item itemvalue="Application.MyDebug" />
-      <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.MyThrows" />
       <item itemvalue="Application.CatchErrs" />
+      <item itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -393,7 +386,8 @@
       <workItem from="1571051632596" duration="10448000" />
       <workItem from="1571140580776" duration="9571000" />
       <workItem from="1571228913450" duration="8601000" />
-      <workItem from="1571312084553" duration="5904000" />
+      <workItem from="1571312084553" duration="6684000" />
+      <workItem from="1571384016851" duration="335000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
