@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/IO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/BufferedInputStreamDemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/BufferedOutputStreamDemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/BufferedReaderDemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/BufferedWriterDemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/src/Copydemo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/test.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IO/writer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/IOAndProperty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/c.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/prop1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/prop2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/prop3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/Prop/DemoProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/Reader/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/src/Reader/Demowriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IOAndProperty/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Net/src/TVPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Net/src/TVPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exception/Demo/exception/MyThrows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,22 +80,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ReadMe" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="BufferedWriterDemo" />
-      <recent name="copyDemo" />
-      <recent name="BufferedInputStreamDemo" />
-      <recent name="Prop" />
-      <recent name="Reader" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry2/secry" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry1" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="BufferedWriterDemo" />
+      <recent name="copyDemo" />
+      <recent name="BufferedInputStreamDemo" />
+      <recent name="Prop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ReadMe" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,21 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (5)">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BufferedInputStreamDemo.Demo" />
-      <module name="IO" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BufferedInputStreamDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TVPClient">
     <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Copydemo.Demo" />
       <module name="IO" />
@@ -157,20 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Copydemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="copyDemo.Demo" />
-      <module name="Exception" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="copyDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,6 +149,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TVPClient" />
+      <module name="Net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TVPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TVPServer" />
+      <module name="Net" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -358,20 +321,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.Demo (3)" />
       <item itemvalue="Application.Demo (2)" />
       <item itemvalue="Application.Demo (4)" />
       <item itemvalue="Application.Demo (5)" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.TVPClient" />
+      <item itemvalue="Application.TVPServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TVPClient" />
+        <item itemvalue="Application.TVPServer" />
         <item itemvalue="Application.Demo (5)" />
         <item itemvalue="Application.Demo (4)" />
         <item itemvalue="Application.Demo (2)" />
-        <item itemvalue="Application.Demo (3)" />
-        <item itemvalue="Application.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +395,8 @@
       <workItem from="1571552426443" duration="10342000" />
       <workItem from="1571643229837" duration="4772000" />
       <workItem from="1571661703175" duration="1427000" />
-      <workItem from="1571829958471" duration="11389000" />
+      <workItem from="1571829958471" duration="11833000" />
+      <workItem from="1571922430098" duration="3835000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
