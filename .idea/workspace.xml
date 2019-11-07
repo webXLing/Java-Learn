@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/Supplier/demo/SupplierDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functionalInterface/demo/MessageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functionalInterface/demo/MyfunctionalIterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FunctionalInterface/src/functionalInterface/demo/SupplierCal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Net/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Net/src/uploadFile/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Net/src/uploadFile/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/Runnableimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/libs/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/domain/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/Jdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/jdbcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/login/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/utila/JDBCutil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,9 +73,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1R4xklpGCADE8Jwi86lCxYpjtAZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -83,27 +85,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JDBC/src" />
+      <recent name="$PROJECT_DIR$/ReadMe" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jdbc" />
+      <recent name="" />
+      <recent name="BufferedWriterDemo" />
+      <recent name="copyDemo" />
+      <recent name="BufferedInputStreamDemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry2/secry" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry1" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="BufferedWriterDemo" />
-      <recent name="copyDemo" />
-      <recent name="BufferedInputStreamDemo" />
-      <recent name="Prop" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ReadMe" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -118,14 +122,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SupplierDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uploadFile.Client" />
-      <module name="Net" />
+  <component name="RunManager" selected="Application.Login">
+    <configuration name="EmpDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.EmpDemo" />
+      <module name="JDBC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uploadFile.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.demo.Demo" />
-      <module name="Thread" />
+    <configuration name="EmpDemoUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.EmpDemoUtil" />
+      <module name="JDBC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.demo.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.demo.LambdaDemo" />
-      <module name="Thread" />
+    <configuration name="JdbcCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcCreate" />
+      <module name="JDBC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.demo.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,13 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uploadFile.Server" />
-      <module name="Net" />
+    <configuration name="JdbcSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcSelect" />
+      <module name="JDBC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uploadFile.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,13 +179,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Supplier.demo.SupplierDemo" />
-      <module name="FunctionalInterface" />
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="login.Login" />
+      <module name="JDBC" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Supplier.demo.*" />
+          <option name="PATTERN" value="login.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,19 +346,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.LambdaDemo" />
-      <item itemvalue="Application.SupplierDemo" />
+      <item itemvalue="Application.JdbcCreate" />
+      <item itemvalue="Application.JdbcSelect" />
+      <item itemvalue="Application.EmpDemo" />
+      <item itemvalue="Application.EmpDemoUtil" />
+      <item itemvalue="Application.Login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SupplierDemo" />
-        <item itemvalue="Application.LambdaDemo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.EmpDemoUtil" />
+        <item itemvalue="Application.EmpDemo" />
+        <item itemvalue="Application.JdbcSelect" />
+        <item itemvalue="Application.JdbcCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +422,12 @@
       <workItem from="1571829958471" duration="11833000" />
       <workItem from="1571922430098" duration="3915000" />
       <workItem from="1572265542213" duration="140000" />
-      <workItem from="1572266173284" duration="5453000" />
+      <workItem from="1572266173284" duration="7151000" />
+      <workItem from="1572950052785" duration="2424000" />
+      <workItem from="1573003760047" duration="15000" />
+      <workItem from="1573004796636" duration="92000" />
+      <workItem from="1573004907352" duration="261000" />
+      <workItem from="1573126550356" duration="9804000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
