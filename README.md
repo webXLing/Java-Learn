@@ -200,10 +200,10 @@ public File[] listFiles()
  ### JDBC 
 
 -  DriverManager 驱动管理对象
--        Connection 数据库连接对象
--        Statement 执行sql对象
--       ResultSet 结果集对象
--                next() 游标下移一行
+-  Connection 数据库连接对象
+-  Statement 执行sql对象
+-  ResultSet 结果集对象
+-  &emsp;next() 游标下移一行
 -                getXxx(参数) Xxx数据类型
 -            使用方法
 -                next() 游标下移一行 并返回布尔值 true 为有效行 有数据
@@ -211,3 +211,112 @@ public File[] listFiles()
 -        PreparedStatement 执行sql对象
 -            sql注入问题  在拼接sql 时  会有sql关键字  造成安全问题
 -            预编译sql
+
+
+#### JDBC 下的事务
+  1.使用connection 对象去开启事务
+    `connection.setAutoCommit(false);`
+  2.提交事务
+    `connection.commit(); // 提交事务`  
+  3.回滚
+    `connection.rollback();`
+
+---
+
+##### 数据库连接池
+1. 概念：其实就是一个容器 当系统初始化号以后 容器就会被创建 用户来访问就从池子里面那 用完之后放回池子  
+2. 节约资源  用户访问快
+3. 实现：
+  - DataSource 接口
+  - C3P0
+  - Druid 
+4.C3P0 数据库连接技术
+5.Druid 数据库连接技术
+  - 通过properties 配置
+  - 分装 Druid工具类
+  ```
+  package utils;
+
+import com.alibaba.druid.pool.DruidDataSourceFactory;
+
+import javax.sql.DataSource;
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Properties;
+
+public class JDBCUtils {
+    private static DataSource ds; // 连接池
+
+    static {
+        //加载配置文件
+        Properties properties = new Properties();
+        try {
+            properties.load(JDBCUtils.class.getClassLoader().getResourceAsStream("dconfig"));
+
+            try {
+//                获取 dataSource
+                DataSource dataSource = DruidDataSourceFactory.createDataSource(properties);
+                ds = dataSource;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+//    获取连接
+    public static Connection getConnection(){
+        try {
+            return ds.getConnection();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+//    释放资源
+    public static void close(ResultSet rs, Statement st , Connection con){
+        if(rs!=null){
+            try {
+                rs.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        if(st!=null){
+            try {
+                st.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        if(con!=null){
+            try {
+                con.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void close(Statement st , Connection con) {
+        close(null, st, con);
+    }
+
+
+    // 获取连接池
+    public static DataSource getDataSource(){
+        return ds;
+    }
+
+}
+ 
+  ```
+
+##### Spring JDBC ： JDBC template
