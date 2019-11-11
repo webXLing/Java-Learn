@@ -1,5 +1,6 @@
 package druid;
 
+import org.junit.Test;
 import utils.JDBCUtils;
 
 import java.sql.Connection;
@@ -28,5 +29,11 @@ public class Demo2 {
         }finally {
             JDBCUtils.close(preparedStatement,connection);
         }
+    }
+
+    @Test
+    public void test(){
+//        throw new Error("error");
+        System.out.println("test");
     }
 }

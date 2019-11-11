@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/libs/druid-1.0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/c3p0-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/dconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/druid/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/druid/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/trasaction/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/trasaction/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/trasaction/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JDBC/src/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/XML.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/libs/jsoup-1.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/src/index.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/src/xlm/com/JsoupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/druid/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/druid/Demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBC/druid/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC/druid/Demo2.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +51,7 @@
       <list>
         <option value="package-info" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -75,12 +72,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xl/longRoad/java/learnJava/xl919/src/x919/Str_Equals.java&#10;str1&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.message.stream.StreamHeader11" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBC/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/XML/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -90,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/XML/libs" />
       <recent name="$PROJECT_DIR$/JDBC/libs" />
       <recent name="$PROJECT_DIR$/JDBC/src" />
       <recent name="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo" />
       <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry" />
-      <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry2/secry" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jdbc" />
@@ -104,6 +105,7 @@
       <recent name="BufferedInputStreamDemo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/XML/src" />
       <recent name="$PROJECT_DIR$/JDBC/src" />
       <recent name="$PROJECT_DIR$/ReadMe" />
     </key>
@@ -120,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
+  <component name="RunManager" selected="Application.JsoupDemo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="druid.Demo" />
       <module name="JDBC" />
@@ -163,27 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmpDemoUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.EmpDemoUtil" />
-      <module name="JDBC" />
+    <configuration name="JsoupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xlm.com.JsoupDemo" />
+      <module name="XML" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="login.Login" />
-      <module name="JDBC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
+          <option name="PATTERN" value="xlm.com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,6 +181,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="druid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="druid" />
+      <option name="MAIN_CLASS_NAME" value="druid.Demo2" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,20 +348,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EmpDemoUtil" />
-      <item itemvalue="Application.Login" />
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo2" />
+      <item itemvalue="JUnit.Demo2.test" />
+      <item itemvalue="Application.JsoupDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsoupDemo" />
+        <item itemvalue="JUnit.Demo2.test" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Demo1" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.EmpDemoUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +432,7 @@
       <workItem from="1573004907352" duration="261000" />
       <workItem from="1573126550356" duration="9998000" />
       <workItem from="1573175110122" duration="1000" />
-      <workItem from="1573177295006" duration="7494000" />
+      <workItem from="1573177295006" duration="12271000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>

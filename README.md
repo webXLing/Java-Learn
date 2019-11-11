@@ -320,3 +320,37 @@ public class JDBCUtils {
   ```
 
 ##### Spring JDBC ： JDBC template
+
+
+##### XMl
+
+### 定义
+- version
+- encoding ISO-8859-1 告知浏览器文档的字符集   默认编码格式  
+- standalong 表示该xml是不是独立的，如果是yes，则表示这个XML文档时独立的，不能引用外部的DTD规范文件；如果是no，则该XML文档不是独立的，表示可以用外部的DTD规范文档。
+- CDATA 区域该区域内的文本会被原样展示
+
+### 约束
+- DTD  简单的约束技术
+- Schema 复杂的约束技术   .xsd
+
+## 解析
+  #### 解析 读取方式
+   
+    1.DOM:将标记语言文档 一次性加载到内存当中去 形成一个dom树
+      - 优点 方便的对 dom树 进行crud 操作
+      - 缺点 占内存
+    2.SAX:逐行读取 基于事件驱动
+      - 优点 不占内存
+      - 缺点 只能读取  不能够crud
+
+  #### xml常见的解析器
+    
+  - JAXP sun公司官方的 支持 dom sax 两种方式
+  - dom4j 解析dom
+  - jsoup 解析html
+  - PULL 安卓内置的解析器  sax
+
+
+
+
