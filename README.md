@@ -354,3 +354,58 @@ public class JDBCUtils {
 
 
 
+#### Tomcat
+JavaEE Java在企业规范
+Tomcat Apache基金公司的 仅支持少量的JavaEE 规范 
+卸载 直接删除目录就可以 
+#### Tomcat目录结构
+- bin  可执行文件
+- conf 配置文件
+- lib  存放tomcat运行需要加载的jar包
+- logs 存放tomcat在运行过程中产生的日志文件
+- temp temp目录用户存放tomcat在运行过程中产生的临时文件。（清空不会对tomcat运行带来影响）
+- webapps 存放web 项目
+- work 
+
+#### Tomcat操作 
+1.启动 关闭
+ - bin ./startup.sh  启动  http://localhost:8080/
+ - bin ./shutdown.sh 关闭
+ - 修改ip con/serve.xml 
+
+#### Servlet 
+ 1.实现 Servlet 接口
+ 2.在web.xml中的添加
+ ```
+<!--    servlet 配置-->
+    <servlet>
+<!--        给类的名称起了一个名字-->
+        <servlet-name>task</servlet-name>
+        <servlet-class>web.ServletDemo</servlet-class>
+    </servlet>
+
+<!--    做一个映射-->
+    <servlet-mapping>
+        <servlet-name>task</servlet-name>
+        <url-pattern>/taslapo</url-pattern>
+    </servlet-mapping>
+```
+ 
+##### 执行原理
+1.当服务器接收到客户端浏览器的请求后，会解析请求的URL路径，获取访问的Servlet的资源路径
+2.查找web.xml文件 是否会对应的<url-pattern>
+3.如果有，就可以找对对应的 <servlet-class> 全类名
+4.tomcat会将字节码文件 加载到内存 (class.forName) 并创建其对象
+5.对调用其方法
+
+
+##### servlet生命周期
+1.init servlet 被创建时执行 一次
+    - 第一次被访问的时候创建 load-on-startup 负数 默认为-1
+     -当web服务器 启动时创建 0 或正整数
+     -<load-on-startup>5</load-on-startup>
+     
+     
+### servlet 3.0
+  - 好处 支持注解配置 可以不需要web.xml
+  - @WebServlet("/api/demo")

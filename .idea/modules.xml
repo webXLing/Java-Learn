@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxf/lxf.iml" filepath="$PROJECT_DIR$/lxf/lxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/readme/readme.iml" filepath="$PROJECT_DIR$/readme/readme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servlet3/servlet3.iml" filepath="$PROJECT_DIR$/servlet3/servlet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcatWeb/tomcatWeb.iml" filepath="$PROJECT_DIR$/tomcatWeb/tomcatWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/xl1011/xl1011.iml" filepath="$PROJECT_DIR$/xl1011/xl1011.iml" />
       <module fileurl="file://$PROJECT_DIR$/xl1012/xl1012.iml" filepath="$PROJECT_DIR$/xl1012/xl1012.iml" />
       <module fileurl="file://$PROJECT_DIR$/xl423/xl423.iml" filepath="$PROJECT_DIR$/xl423/xl423.iml" />
