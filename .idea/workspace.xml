@@ -2,42 +2,35 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet3:war exploded" />
+      <artifact name="loginTest:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/servlet3_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tomcatWeb_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet3/servlet3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet3/src/com/web/Servlet3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet3/src/request/ServletDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet3/src/web/servlet/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servlet3/web/aa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/src/web/ServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/src/web/ServletDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/tomcatWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/web/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/web/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcatWeb/web/test.js" afterDir="false" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/loginTest_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/loginTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/Dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/cn/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/dconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/GetCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/failServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/successServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/druid-1.0.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/log4j-1.2.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-beans-5.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-core-5.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-jdbc-5.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-tx-5.1.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/API/META-INF/API.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Collection/collections/Demo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Collection/collections/Demo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Collection/collections/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Collection/collections/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IOAndProperty/META-INF/IOAndProperty.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC/META-INF/JDBC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBC/druid/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBC/druid/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Map/META-INF/Map.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Net/META-INF/Net.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Net/uploadFile/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Net/uploadFile/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl1011/learn4/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl1011/learn4/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl1011/learn4/Zi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl1011/learn4/Zi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl919/META-INF/xl919.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl923/learn/Link.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/xl923/learn/Link.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/xl924/META-INF/xl924.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +107,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/XML/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loginTest/web/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -124,23 +117,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/XML/src" />
       <recent name="$PROJECT_DIR$/JDBC/src" />
       <recent name="$PROJECT_DIR$/ReadMe" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="servlet" />
       <recent name="web" />
       <recent name="jdbc" />
       <recent name="" />
       <recent name="BufferedWriterDemo" />
-      <recent name="copyDemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginTest/web/lib" />
+      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INFO/lib" />
+      <recent name="$PROJECT_DIR$/loginTest/src" />
       <recent name="$PROJECT_DIR$/XML/libs" />
       <recent name="$PROJECT_DIR$/JDBC/libs" />
-      <recent name="$PROJECT_DIR$/JDBC/src" />
-      <recent name="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo" />
-      <recent name="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,6 +215,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="loginTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserDaoTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -239,11 +250,12 @@
     </configuration>
     <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:7070/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="servlet3:war exploded">
+        <artifact name="loginTest:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/servlet3" />
+            <option name="CONTEXT_PATH" value="/loginTest" />
           </settings>
         </artifact>
       </deployment>
@@ -307,7 +319,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet3:war exploded" />
+          <artifact name="loginTest:war exploded" />
         </option>
       </method>
     </configuration>
@@ -445,11 +457,13 @@
       <item itemvalue="Application.Demo2" />
       <item itemvalue="Application.JsoupDemo" />
       <item itemvalue="JUnit.Demo2.test" />
+      <item itemvalue="JUnit.UserDaoTest.testLogin" />
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testLogin" />
         <item itemvalue="Application.JsoupDemo" />
         <item itemvalue="JUnit.Demo2.test" />
         <item itemvalue="Application.Demo2" />
@@ -526,6 +540,10 @@
       <workItem from="1573175110122" duration="1000" />
       <workItem from="1573177295006" duration="13561000" />
       <workItem from="1573526795671" duration="15462000" />
+      <workItem from="1573614364292" duration="184000" />
+      <workItem from="1573614752569" duration="1436000" />
+      <workItem from="1573650782277" duration="7103000" />
+      <workItem from="1573737362971" duration="3020000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>

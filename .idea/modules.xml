@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Net/Net.iml" filepath="$PROJECT_DIR$/Net/Net.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginTest/loginTest.iml" filepath="$PROJECT_DIR$/loginTest/loginTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/lxf/lxf.iml" filepath="$PROJECT_DIR$/lxf/lxf.iml" />
       <module fileurl="file://$PROJECT_DIR$/readme/readme.iml" filepath="$PROJECT_DIR$/readme/readme.iml" />
       <module fileurl="file://$PROJECT_DIR$/servlet3/servlet3.iml" filepath="$PROJECT_DIR$/servlet3/servlet3.iml" />
