@@ -6,31 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/loginTest_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/loginTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/cn/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/dconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/GetCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/failServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/successServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/test/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/src/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/druid-1.0.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/log4j-1.2.13.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/mysql-connector-java-8.0.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-beans-5.1.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-core-5.1.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-jdbc-5.1.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/WEB-INF/lib/spring-tx-5.1.10.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginTest/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="##### 重定向与转发的区别&#10;### 重定向&#10;- 浏览器地址栏会发生改变&#10;- 可以访问其他服务器的资源&#10;- 对于浏览器来说 是发送了2次请求 不能用request 对象来共享数据&#10;&#10;### 转发&#10;- 浏览器地址栏不会发生改变&#10;- 可以访问当前服务器的资源&#10;- 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据">
+      <change afterPath="$PROJECT_DIR$/loginTest/src/download/DlServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/servlet/cookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/session/sessionServlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/src/session/sessionServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/images/pop_6off@2x (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginTest/web/img.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/loginTest_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/loginTest_war_exploded/index.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +61,8 @@
         <option value="Interface" />
         <option value="JavaScript File" />
         <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -107,34 +93,34 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/loginTest/web/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/loginTest/web/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginTest/web/images" />
+      <recent name="$PROJECT_DIR$/loginTest/web/lib" />
+      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INFO/lib" />
+      <recent name="$PROJECT_DIR$/loginTest/src" />
+      <recent name="$PROJECT_DIR$/XML/libs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="session" />
+      <recent name="servlet" />
+      <recent name="web" />
+      <recent name="jdbc" />
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/loginTest/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/XML/src" />
       <recent name="$PROJECT_DIR$/JDBC/src" />
       <recent name="$PROJECT_DIR$/ReadMe" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="servlet" />
-      <recent name="web" />
-      <recent name="jdbc" />
-      <recent name="" />
-      <recent name="BufferedWriterDemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/loginTest/web/lib" />
-      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INFO/lib" />
-      <recent name="$PROJECT_DIR$/loginTest/src" />
-      <recent name="$PROJECT_DIR$/XML/libs" />
-      <recent name="$PROJECT_DIR$/JDBC/libs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -249,6 +235,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:7070/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -543,7 +530,8 @@
       <workItem from="1573614364292" duration="184000" />
       <workItem from="1573614752569" duration="1436000" />
       <workItem from="1573650782277" duration="7103000" />
-      <workItem from="1573737362971" duration="3020000" />
+      <workItem from="1573737362971" duration="3351000" />
+      <workItem from="1573991481183" duration="7604000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
@@ -552,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568992410053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="##### 重定向与转发的区别&#10;### 重定向&#10;- 浏览器地址栏会发生改变&#10;- 可以访问其他服务器的资源&#10;- 对于浏览器来说 是发送了2次请求 不能用request 对象来共享数据&#10;&#10;### 转发&#10;- 浏览器地址栏不会发生改变&#10;- 可以访问当前服务器的资源&#10;- 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据">
+      <created>1573745590383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573745590384</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +569,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导" />
+    <MESSAGE value="##### 重定向与转发的区别&#10;### 重定向&#10;- 浏览器地址栏会发生改变&#10;- 可以访问其他服务器的资源&#10;- 对于浏览器来说 是发送了2次请求 不能用request 对象来共享数据&#10;&#10;### 转发&#10;- 浏览器地址栏不会发生改变&#10;- 可以访问当前服务器的资源&#10;- 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="##### 重定向与转发的区别&#10;### 重定向&#10;- 浏览器地址栏会发生改变&#10;- 可以访问其他服务器的资源&#10;- 对于浏览器来说 是发送了2次请求 不能用request 对象来共享数据&#10;&#10;### 转发&#10;- 浏览器地址栏不会发生改变&#10;- 可以访问当前服务器的资源&#10;- 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

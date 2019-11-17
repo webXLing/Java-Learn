@@ -424,5 +424,64 @@ Tomcat Apache基金公司的 仅支持少量的JavaEE 规范
 - 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据
 
 
+##### servletContext
+- servletContext.getRealPath
+- 在web 资源下 直接 /
+- 在src 下自配置文件会最终 在WEB-INF 下的 classes 中 所以 /WEB-INF/classes
+
   
+##### Cookie
+1. maxTime  
+    - 正数  持久化硬盘 时间
+    - 0 删除
+    - 负数 默认 和session 一样浏览器关闭则 失效了
+
+2.tomcat 8 前 cookie 设置中文需要 url转码    
+
+3.cookie 的共享问题
+- 同一台tomcat服务器下的不同项目 可以通过 setPath('/') 共享cookie
+- 多个服务器下 可以通过 设置一级域名相同 setDomain('.baidu.com') 共享cookie tieba.baidu.com 和 news.baidu.com 
+
+4.特点
+- 单个 不超过4kb 
+- 同一个域名下 数量不超过20个
+
+
+##### Jsp java server page
+
+1.原理 ：index.jsp -> _index.java -> _index.class 本质上就是一个servlet 因为servlet才可以被客户端访问 
+
+2.脚本
+- <% 代码 %>  定义的java代码是在 service 方法里面的
+- <!% 代码 %>  jsp转化的java 类 的成员变量  成员方法 静态代码块  尽量别去写
+- <=% 代码 %>  也是在service 方法里面 变量输出 
+
+3.jsp内置对象 ：可以直接使用的对象  9个
+1.request
+2.response
+3.out 字符输出流 reponse.getriter 类似 
+   - out 与 reponse.getriter 区别： reponse.getriter 先于out输出  
+   - tomcat 服务器 做响应 先找 reponse.getriter 的缓冲区 再找 out的缓冲区
+   
+   
+##### session 
+1.细节
+ - 当客户端关闭 服务器不关闭 服务端两次获取的session 是同一个吗
+     1.不是
+     2.如果要相同 则同过 设置cookie JSESSIONID 设置时间      
+ - 当客户端没有关闭  服务器关闭  两次ssion 是同一个吗
+    1.不是  但是要确保数据b不丢失
+    2.session 的钝化
+        * 在服务器关闭前 将session 对象化到硬盘中 work 文件在 的session.ser
+    3.ssession 的活化
+        * 服务器 启动后 将session.ser 读取到内存中去  并删除  tomcat已经实现了
   
+  - session 的销毁问题
+    1.服务器关闭
+    2.session  对象调用 invalidate()
+    3.默认30 分钟 可以在tomcat 的web.xml中配置
+   
+
+
+
+
