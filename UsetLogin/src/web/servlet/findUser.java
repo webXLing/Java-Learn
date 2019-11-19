@@ -10,19 +10,24 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
-@WebServlet("/userListServlet")
-public class UserListServlet extends HttpServlet {
+/*
+通过id 查询用户
+ */
+@WebServlet("/findUser")
+public class findUser extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        1.调用userService 查询 数据
-        UserService userService = new UserServiceImpl();
-        List<User> list = userService.findAll();
+        String id = request.getParameter("id");
 
-        //2.将查询到的list 存入request 域中
-        request.setAttribute("list",list);
-        //3.转发到list.jsp
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        UserService userService = new UserServiceImpl();
+        User user = userService.findUser(id);
+        System.out.println(user);
+        request.setAttribute("user",user);
+
+//        转发到 编辑页面
+        request.getRequestDispatcher("/update.jsp").forward(request,response);
+
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

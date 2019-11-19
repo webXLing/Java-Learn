@@ -13,4 +13,24 @@ public interface UserService {
      * @return
      */
     public List<User> findAll();
+
+    public User login(User user);
+
+    /**
+     * 根据id 删除
+     */
+    void delete(String id);
+
+    /**
+     * 通过id 查询用户
+     * @param id
+     */
+     User findUser(String id);
+
+    void updataUser(User user);
+
+    /**
+     * 删除一组数据
+     */
+    void deleteSelect(String [] ids);
 }
