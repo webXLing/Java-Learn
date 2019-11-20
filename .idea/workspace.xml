@@ -7,7 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;登录&#10;增删改查 用户&#10;批量删除">
+      <change afterPath="$PROJECT_DIR$/UsetLogin/src/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +74,8 @@
         <option value="JavaScript File" />
         <option value="FxmlFile" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -522,7 +544,8 @@
       <workItem from="1574077584308" duration="2759000" />
       <workItem from="1574086943789" duration="1531000" />
       <workItem from="1574088863265" duration="3750000" />
-      <workItem from="1574164877304" duration="11922000" />
+      <workItem from="1574164877304" duration="13821000" />
+      <workItem from="1574258814670" duration="4496000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>

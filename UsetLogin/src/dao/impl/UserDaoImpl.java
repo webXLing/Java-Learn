@@ -84,4 +84,33 @@ public class UserDaoImpl implements UserDao {
         System.out.println(user.getEmail());
         template.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(),user.getId());
     }
+
+
+    /**
+     * 获取 总条数
+     * @return
+     */
+    @Override
+    public int findTotalCount() {
+        String sql ="SELECT COUNT(*) from user_table";
+
+       int i =  template.queryForObject(sql,Integer.class);
+//        System.out.println("总条数"+i);
+        return i;
+    }
+
+
+    /**
+     * 根据页码 获取 数据
+     * @param start
+     * @param rows
+     * @return
+     */
+    @Override
+    public List<User> findByPage(int start, int rows) {
+        String sql = "SELECT * FROM user_table LIMIT ? , ?";
+          List<User> query = template.query(sql, new BeanPropertyRowMapper<User>(User.class),start,rows);
+//        System.out.println(query);
+        return query;
+    }
 }

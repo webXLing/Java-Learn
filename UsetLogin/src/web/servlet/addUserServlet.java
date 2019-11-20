@@ -33,7 +33,7 @@ public class addUserServlet extends HttpServlet {
             userService.addUser(user);
 
             //跳转 到
-            response.sendRedirect(request.getContextPath()+"/userListServlet");
+            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
 
         } catch (IllegalAccessException e) {
             e.printStackTrace();

@@ -1,5 +1,6 @@
 package service;
 
+import domain.PageBean;
 import domain.User;
 
 import java.util.List;
@@ -33,4 +34,6 @@ public interface UserService {
      * 删除一组数据
      */
     void deleteSelect(String [] ids);
+
+    PageBean<User> findUserByPage(String currentPage, String rows);
 }

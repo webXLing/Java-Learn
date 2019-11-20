@@ -30,7 +30,7 @@ public class updateUserServlet extends HttpServlet {
             UserService userService = new UserServiceImpl();
             userService.updataUser(user);
 
-            response.sendRedirect(request.getContextPath()+"/userListServlet");
+            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
 
         } catch (IllegalAccessException e) {
             e.printStackTrace();
