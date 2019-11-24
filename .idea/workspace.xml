@@ -6,25 +6,26 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;登录&#10;增删改查 用户&#10;批量删除">
-      <change afterPath="$PROJECT_DIR$/UsetLogin/src/domain/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" afterDir="false" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页">
+      <change afterPath="$PROJECT_DIR$/UsetLogin/src/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/src/test/TestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/src/web/filter/loginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/UsetLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/UsetLogin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" afterDir="false" />
@@ -74,8 +75,8 @@
         <option value="JavaScript File" />
         <option value="FxmlFile" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -106,7 +107,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UsetLogin/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -115,11 +116,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/XML/src" />
-      <recent name="$PROJECT_DIR$/JDBC/src" />
-      <recent name="$PROJECT_DIR$/ReadMe" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib" />
+      <recent name="$PROJECT_DIR$/UsetLogin/web" />
+      <recent name="$PROJECT_DIR$/UsetLogin/src/web/servlet" />
+      <recent name="$PROJECT_DIR$/UsetLogin/src" />
+      <recent name="$PROJECT_DIR$/UsetLogin/src/util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="session" />
@@ -128,12 +130,11 @@
       <recent name="jdbc" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/UsetLogin/web" />
-      <recent name="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib" />
-      <recent name="$PROJECT_DIR$/UsetLogin/src/web/servlet" />
-      <recent name="$PROJECT_DIR$/UsetLogin/src" />
-      <recent name="$PROJECT_DIR$/UsetLogin/src/util" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/loginTest/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/XML/src" />
+      <recent name="$PROJECT_DIR$/JDBC/src" />
+      <recent name="$PROJECT_DIR$/ReadMe" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,35 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.43">
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="druid.Demo2" />
-      <module name="JDBC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="druid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsoupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xlm.com.JsoupDemo" />
-      <module name="XML" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xlm.com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestPerson.test1">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -192,17 +165,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JDBC" />
+    <configuration name="TestPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsetLogin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="druid.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="druid" />
-      <option name="MAIN_CLASS_NAME" value="druid.Demo2" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestPerson" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerson.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsetLogin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestPerson" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerson.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UsetLogin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestPerson" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -448,21 +454,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo2" />
-      <item itemvalue="Application.JsoupDemo" />
-      <item itemvalue="JUnit.Demo2.test" />
       <item itemvalue="JUnit.UserDaoTest.testLogin" />
       <item itemvalue="JUnit.All in loginTest" />
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
+      <item itemvalue="JUnit.TestPerson" />
+      <item itemvalue="JUnit.TestPerson.test" />
+      <item itemvalue="JUnit.TestPerson.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPerson.test1" />
+        <item itemvalue="JUnit.TestPerson.test" />
+        <item itemvalue="JUnit.TestPerson" />
         <item itemvalue="JUnit.All in loginTest" />
         <item itemvalue="JUnit.UserDaoTest.testLogin" />
-        <item itemvalue="Application.JsoupDemo" />
-        <item itemvalue="JUnit.Demo2.test" />
-        <item itemvalue="Application.Demo2" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +551,10 @@
       <workItem from="1574086943789" duration="1531000" />
       <workItem from="1574088863265" duration="3750000" />
       <workItem from="1574164877304" duration="13821000" />
-      <workItem from="1574258814670" duration="4496000" />
+      <workItem from="1574258814670" duration="4826000" />
+      <workItem from="1574303088431" duration="25000" />
+      <workItem from="1574336745815" duration="5140000" />
+      <workItem from="1574602176325" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
@@ -575,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574177584392</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页">
+      <created>1574263786100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574263786100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +616,8 @@
     <MESSAGE value="##### 重定向与转发的区别&#10;### 重定向&#10;- 浏览器地址栏会发生改变&#10;- 可以访问其他服务器的资源&#10;- 对于浏览器来说 是发送了2次请求 不能用request 对象来共享数据&#10;&#10;### 转发&#10;- 浏览器地址栏不会发生改变&#10;- 可以访问当前服务器的资源&#10;- 对于浏览器来说 是发送了1次请求  可以用request 对象来共享数据" />
     <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;实现用户的增删改查操作" />
     <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;登录&#10;增删改查 用户&#10;批量删除" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;登录&#10;增删改查 用户&#10;批量删除" />
+    <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,30 +630,65 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
           <line>98</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
           <line>126</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
           <line>136</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/Map/src/demo/Map/DemoLinkedHashMap.java</url>
           <line>4</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/UsetLogin/web/list.jsp</url>
           <line>102</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UsetLogin/src/test/TestPerson.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

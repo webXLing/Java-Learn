@@ -7,6 +7,7 @@ import domain.User;
 import service.UserService;
 
 import java.util.List;
+import java.util.Map;
 
 public class UserServiceImpl implements UserService {
     private UserDao dao = new UserDaoImpl();
@@ -60,12 +61,13 @@ public class UserServiceImpl implements UserService {
 
     /**
      * 分页查询
-     * @param currentPage
-     * @param rows
+     * @param _currentPage
+     * @param _rows
+     * @param condition
      * @return
      */
-    @Override
-    public PageBean<User> findUserByPage(String _currentPage, String _rows) {
+     @Override
+    public PageBean<User> findUserByPage(String _currentPage, String _rows, Map<String, String[]> condition) {
         int currentPage = Integer.parseInt(_currentPage); // 当前页码
         int rows = Integer.parseInt(_rows); // 每页数量
 
@@ -76,15 +78,18 @@ public class UserServiceImpl implements UserService {
         userPageBean.setRows(rows);
 
         //2。调用 dao 查询总记录数
-       int totalCount =  dao.findTotalCount();
+       int totalCount =  dao.findTotalCount(condition);
         userPageBean.setTotalCount(totalCount);
-
-        int totalPage = (int) Math.ceil(totalCount / rows);
+        float res = totalCount / rows;
+         System.out.println(res);
+        int totalPage = (int) Math.ceil(res);
+         System.out.println(totalCount);
+         System.out.println(rows);
         userPageBean.setTotalCPage(totalPage);
 
         //3.获取某一页的数据
         int start = (currentPage-1)*rows;
-       List<User> list = dao.findByPage(start,rows);
+       List<User> list = dao.findByPage(start,rows,condition );
         userPageBean.setList(list);
 
         return userPageBean;

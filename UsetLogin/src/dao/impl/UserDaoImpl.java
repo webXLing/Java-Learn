@@ -7,7 +7,10 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import util.JDBCUtils;
 
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 
 public class UserDaoImpl implements UserDao {
@@ -89,12 +92,31 @@ public class UserDaoImpl implements UserDao {
     /**
      * 获取 总条数
      * @return
+     * @param condition
      */
     @Override
-    public int findTotalCount() {
-        String sql ="SELECT COUNT(*) from user_table";
+    public int findTotalCount(Map<String, String[]> condition) {
+        String sql ="SELECT COUNT(*) from user_table where 1= 1 ";
 
-       int i =  template.queryForObject(sql,Integer.class);
+        StringBuilder stringBuilder = new StringBuilder(sql);
+        List<Object> list = new ArrayList<Object>();
+
+        Set<String> strings = condition.keySet();
+        for (String string : strings) {
+            String value = condition.get(string)[0];
+            if("rows".equals(string)||"currentPage".equals(string)){
+                continue;
+            }
+            if(value!=null && !"".equals(value)){
+                stringBuilder.append(" and "+string+" like ?");
+                list.add("%"+value+"%");
+            }
+        }
+
+        System.out.println(stringBuilder.toString());
+
+
+        int i =  template.queryForObject(stringBuilder.toString(),Integer.class,list.toArray());
 //        System.out.println("总条数"+i);
         return i;
     }
@@ -104,12 +126,33 @@ public class UserDaoImpl implements UserDao {
      * 根据页码 获取 数据
      * @param start
      * @param rows
+     * @param condition
      * @return
      */
     @Override
-    public List<User> findByPage(int start, int rows) {
-        String sql = "SELECT * FROM user_table LIMIT ? , ?";
-          List<User> query = template.query(sql, new BeanPropertyRowMapper<User>(User.class),start,rows);
+    public List<User> findByPage(int start, int rows, Map<String, String[]> condition) {
+        String sql = "SELECT * FROM user_table where 1= 1 ";
+//        LIMIT ? , ?
+        StringBuilder stringBuilder = new StringBuilder(sql);
+        List<Object> list = new ArrayList<Object>();
+
+        Set<String> strings = condition.keySet();
+        for (String string : strings) {
+            String value = condition.get(string)[0];
+            if("rows".equals(string)||"currentPage".equals(string)){
+                continue;
+            }
+            if(value!=null && !"".equals(value)){
+                stringBuilder.append(" and "+string+" like ?");
+                list.add("%"+value+"%");
+            }
+        }
+
+        stringBuilder.append(" LIMIT ? , ?");
+        list.add(start);
+        list.add(rows);
+        System.out.println(stringBuilder.toString());
+          List<User> query = template.query(stringBuilder.toString(), new BeanPropertyRowMapper<User>(User.class),list.toArray());
 //        System.out.println(query);
         return query;
     }
