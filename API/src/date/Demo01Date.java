@@ -11,7 +11,7 @@ java.util.Date 表示日期和时间的类
 public class Demo01Date {
     public static void main(String[] args) {
         System.out.println(System.currentTimeMillis());//获取当前系统时间到19700101 00：00经历了多少毫秒
-        
+
         fun();
         fun1();
         fun3();

@@ -15,7 +15,7 @@ public class Arr {
         }
     }
 
-    public static List<String> setList(List<String> list){
+    public static List<String> setList(List<String> list) {
         list.add("1");
         list.add("加油");
         list.add("XL");

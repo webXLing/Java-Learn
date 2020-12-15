@@ -16,7 +16,7 @@ public class ServletDemo1 extends HttpServlet {
          */
         BufferedReader reader = request.getReader();
         String line = null;
-        while ((line=reader.readLine())!=null){
+        while ((line = reader.readLine()) != null) {
             System.out.println(line);
         }
 

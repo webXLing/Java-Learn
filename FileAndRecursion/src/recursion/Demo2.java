@@ -16,12 +16,12 @@ public class Demo2 {
     private static void getAllFile(File fl) {
         File[] files = fl.listFiles();
         for (File file : files) {
-            if(file.isDirectory()){
+            if (file.isDirectory()) {
                 getAllFile(file);
-            }else{
+            } else {
                 System.out.println(file);
             }
-            
+
         }
     }
 

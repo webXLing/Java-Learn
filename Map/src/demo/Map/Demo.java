@@ -16,6 +16,7 @@ public class Demo {
     public static void main(String[] args) {
         show();
     }
+
     /*
     V	put(K key, V value)
         将指定的值与该映射中的指定键相关联（可选操作）。
@@ -32,17 +33,17 @@ boolean	containsKey(Object key)
 如果此映射包含指定键的映射，则返回 true 。
      */
     private static void show() {
-        Map<String,String> map = new HashMap();
-        String str1 = map.put("徐","jiayou");
+        Map<String, String> map = new HashMap();
+        String str1 = map.put("徐", "jiayou");
         System.out.println(str1); // 返回的是之前的value
 
 
-        String str2 = map.put("徐","jiayou1");
+        String str2 = map.put("徐", "jiayou1");
 //        System.out.println(str2); //
-        String str3 = map.put("徐","jiayou1");
+        String str3 = map.put("徐", "jiayou1");
 //        System.out.println(str3); //
 
-        map.put("徐类","jiayou1");
+        map.put("徐类", "jiayou1");
 //        map.remove("徐");
 
 

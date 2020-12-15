@@ -17,9 +17,9 @@ public class JdbcCreate {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-             conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
+            conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
 
-             statement = conn.createStatement();
+            statement = conn.createStatement();
             int i = statement.executeUpdate("create table student (id int primary key ,name varchar (20))");
             System.out.println(i);
 
@@ -27,8 +27,8 @@ public class JdbcCreate {
             e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
-        }finally {
-            if(statement!=null){
+        } finally {
+            if (statement != null) {
                 try {
                     statement.close();
                 } catch (SQLException e) {
@@ -36,7 +36,7 @@ public class JdbcCreate {
                 }
             }
 
-            if(conn!=null){
+            if (conn != null) {
                 try {
                     conn.close();
                 } catch (SQLException e) {

@@ -32,8 +32,8 @@ public class JDBCUtils {
 
     }
 
-//    获取连接
-    public static Connection getConnection(){
+    //    获取连接
+    public static Connection getConnection() {
         try {
             return ds.getConnection();
         } catch (SQLException e) {
@@ -42,16 +42,16 @@ public class JDBCUtils {
         return null;
     }
 
-//    释放资源
-    public static void close(ResultSet rs, Statement st , Connection con){
-        if(rs!=null){
+    //    释放资源
+    public static void close(ResultSet rs, Statement st, Connection con) {
+        if (rs != null) {
             try {
                 rs.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
-        if(st!=null){
+        if (st != null) {
             try {
                 st.close();
             } catch (SQLException e) {
@@ -59,7 +59,7 @@ public class JDBCUtils {
             }
         }
 
-        if(con!=null){
+        if (con != null) {
             try {
                 con.close();
             } catch (SQLException e) {
@@ -68,13 +68,13 @@ public class JDBCUtils {
         }
     }
 
-    public static void close(Statement st , Connection con) {
+    public static void close(Statement st, Connection con) {
         close(null, st, con);
     }
 
 
     // 获取连接池
-    public static DataSource getDataSource(){
+    public static DataSource getDataSource() {
         return ds;
     }
 

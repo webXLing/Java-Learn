@@ -12,8 +12,8 @@ import java.util.Arrays;
  */
 public class Demo1 {
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos = new FileOutputStream("IOAndProperty/c.txt",true);
-        for (int i = 0; i <10 ; i++) {
+        FileOutputStream fos = new FileOutputStream("IOAndProperty/c.txt", true);
+        for (int i = 0; i < 10; i++) {
             fos.write("你好".getBytes());
             fos.write("\r\n".getBytes()); //换行
         }

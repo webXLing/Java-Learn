@@ -29,12 +29,13 @@ java.lang.Thread
 
 Java程序属于抢占式调度 优先级高的先执行 优先度相同 随机
  */
-class MyRun implements Runnable{
+class MyRun implements Runnable {
     @Override
     public void run() {
         System.out.println("我是MyRun 的run 方法");
     }
 }
+
 public class Demo {
     /*
     JVM 执行main放方法 找os操作系统 开辟一条通往cpu的路径 这个路径叫 main线程（主线程）
@@ -45,8 +46,8 @@ public class Demo {
         mt.start();
 
 //        主线程 和 创建的线程 随机执行
-        for (int i = 0; i <20 ; i++) {
-            System.out.println("主线程"+i);
+        for (int i = 0; i < 20; i++) {
+            System.out.println("主线程" + i);
         }
 
 //        方法二

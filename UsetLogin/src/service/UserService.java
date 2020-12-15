@@ -12,6 +12,7 @@ import java.util.Map;
 public interface UserService {
     /**
      * 查询所有的用户
+     *
      * @return
      */
     public List<User> findAll();
@@ -25,16 +26,17 @@ public interface UserService {
 
     /**
      * 通过id 查询用户
+     *
      * @param id
      */
-     User findUser(String id);
+    User findUser(String id);
 
     void updataUser(User user);
 
     /**
      * 删除一组数据
      */
-    void deleteSelect(String [] ids);
+    void deleteSelect(String[] ids);
 
     PageBean<User> findUserByPage(String currentPage, String rows, Map<String, String[]> condition);
 }

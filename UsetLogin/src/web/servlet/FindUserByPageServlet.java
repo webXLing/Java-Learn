@@ -21,11 +21,11 @@ public class FindUserByPageServlet extends HttpServlet {
         String currentPage = request.getParameter("currentPage");
         String rows = request.getParameter("rows");
 
-        if(currentPage==null|| currentPage==""){
+        if (currentPage == null || currentPage == "") {
             currentPage = "1";
         }
 
-        if(rows==null|| rows==""){
+        if (rows == null || rows == "") {
             rows = "3";
         }
 
@@ -35,17 +35,15 @@ public class FindUserByPageServlet extends HttpServlet {
         //2.调用service 查询 pagebeen
 
         UserService userService = new UserServiceImpl();
-        PageBean<User> pb =  userService.findUserByPage(currentPage,rows,condition);
-
-
+        PageBean<User> pb = userService.findUserByPage(currentPage, rows, condition);
 
 
         //3.将PageBean 传入request
-        request.setAttribute("pb",pb);
+        request.setAttribute("pb", pb);
         System.out.println(pb);
 
         //4.展示list.jsp
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request, response);
 
     }
 

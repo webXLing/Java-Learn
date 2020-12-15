@@ -1,11 +1,13 @@
 package learn920;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        var str = "ds"; // java 10 之后的
 //        System.out.println(str);
         int n = 5;
-        double res = 1.3+24.0/n;
+        double res = 1.3 + 24.0 / n;
         double d = 1.2 + 24 / 5;  // 4
         System.out.println(res);
         System.out.println(d);
@@ -19,7 +21,7 @@ public class Main {
         double d1 = 1301123000;
         double d2 = 3.123123;
         System.out.println(d1);
-        System.out.printf("d1=%f",d2);
+        System.out.printf("d1=%f", d2);
         int n1 = 12345000;
         System.out.printf("n=%d, hex=%08x", n1, n1); // 注意，两个%占位符必须传入两个数
 
@@ -32,13 +34,14 @@ public class Main {
         System.out.printf("Hi, %s, you are %d\n", name, age); // 格式化输出
 
 //        foreach
-        int [] arr2 = new int[]{1,321,3423,423};
-        for (int item:
-             arr2) {
+        int[] arr2 = new int[]{1, 321, 3423, 423};
+        for (int item :
+                arr2) {
             System.out.println(item);
         }
     }
 }
+
 //一个*.java文件只能有一个public class 类
 //public class 与 class 的区别
 //对个class 会被编译为多个java文件
@@ -47,13 +50,14 @@ class Book {
     private int num;//私有属性 只能在本类中访问
     String str;
     double price;
+
     //    public static void show(){
-    public void show(){
+    public void show() {
 
-        System.out.println("排名"+num);
+        System.out.println("排名" + num);
 
-        System.out.println("名称"+str);
-        System.out.println("价格"+price);
+        System.out.println("名称" + str);
+        System.out.println("价格" + price);
     }
 
     public void setNum(int num) {
@@ -66,54 +70,66 @@ class Book {
 }
 
 //简单java类
-class Emp{
+class Emp {
     private String ename;
     private String job;
     private double sal;
     private double com;
-    public Emp(){//无参构造
+
+    public Emp() {//无参构造
 
     }
-    public Emp(String name,String j,double sa,double c){//无参构造
+
+    public Emp(String name, String j, double sa, double c) {//无参构造
         ename = name;
-        job=j;
-        sal=sa;
-        com=c;
-    }
-    public void setEname(String name){
-        ename = name;
-    }
-    public void setJob (String j){
         job = j;
-    }
-    public void setSal(double s){
-        sal=s;
-    }
-    public void setCom(double c){
+        sal = sa;
         com = c;
     }
-    public String getEname(){
+
+    public void setEname(String name) {
+        ename = name;
+    }
+
+    public void setJob(String j) {
+        job = j;
+    }
+
+    public void setSal(double s) {
+        sal = s;
+    }
+
+    public void setCom(double c) {
+        com = c;
+    }
+
+    public String getEname() {
         return ename;
     }
-    public String getJob(){
+
+    public String getJob() {
         return job;
     }
-    public double getSal(){
+
+    public double getSal() {
         return sal;
     }
-    public double getCom(){
+
+    public double getCom() {
         return com;
     }
-    public String getInfo(){
-        return "名字:"+ename+"\n"+
-                "职业："+job+"\n"+
-                "工资"+sal+"\n"+
-                "不知道"+com+'\n';
+
+    public String getInfo() {
+        return "名字:" + ename + "\n" +
+                "职业：" + job + "\n" +
+                "工资" + sal + "\n" +
+                "不知道" + com + '\n';
     }
 }
- class Test {
-    public static void main(String[] args){
-        Emp emp = new Emp("小红","前端",7.0,1);
+
+class Test {
+    public static void main(String[] args) {
+        Emp emp = new Emp("小红", "前端", 7.0, 1);
         emp.setJob("后端");
         System.out.println(emp.getInfo());
         /**类的引用*/

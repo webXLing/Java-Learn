@@ -28,12 +28,12 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public User getUserByUsername(String username, String password){
+    public User getUserByUsername(String username, String password) {
         try { // 当查询不到的时候返回null
             String sql = "select * from user_table where username = ? and password = ?";
             User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), username, password);
             return user;
-        }catch (Exception e){
+        } catch (Exception e) {
             return null;
         }
     }
@@ -51,7 +51,7 @@ public class UserDaoImpl implements UserDao {
             System.out.println(user.getEmail());
             int update = template.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail());
             System.out.println(update);
-        }catch (Exception e){
+        } catch (Exception e) {
 
         }
     }
@@ -60,21 +60,20 @@ public class UserDaoImpl implements UserDao {
     public void delete(String id) {
         int i = Integer.parseInt(id);
         String sql = "delete from user_table where id = ?";
-        template.update(sql,i);
+        template.update(sql, i);
     }
 
     @Override
     public User findUser(int id) {
         try {
 
-                String sql = "select * from user_table where id = ?";
-                User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), id);
-                return user;
+            String sql = "select * from user_table where id = ?";
+            User user = template.queryForObject(sql, new BeanPropertyRowMapper<User>(User.class), id);
+            return user;
+        } catch (Exception e) {
+            return null;
         }
-        catch (Exception e){
-                    return null;
-                }
-        }
+    }
 
     @Override
     public void updataUser(User user) {
@@ -85,18 +84,19 @@ public class UserDaoImpl implements UserDao {
         System.out.println(user.getAddress());
         System.out.println(user.getQq());
         System.out.println(user.getEmail());
-        template.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(),user.getId());
+        template.update(sql, user.getName(), user.getGender(), user.getAge(), user.getAddress(), user.getQq(), user.getEmail(), user.getId());
     }
 
 
     /**
      * 获取 总条数
-     * @return
+     *
      * @param condition
+     * @return
      */
     @Override
     public int findTotalCount(Map<String, String[]> condition) {
-        String sql ="SELECT COUNT(*) from user_table where 1= 1 ";
+        String sql = "SELECT COUNT(*) from user_table where 1= 1 ";
 
         StringBuilder stringBuilder = new StringBuilder(sql);
         List<Object> list = new ArrayList<Object>();
@@ -104,19 +104,19 @@ public class UserDaoImpl implements UserDao {
         Set<String> strings = condition.keySet();
         for (String string : strings) {
             String value = condition.get(string)[0];
-            if("rows".equals(string)||"currentPage".equals(string)){
+            if ("rows".equals(string) || "currentPage".equals(string)) {
                 continue;
             }
-            if(value!=null && !"".equals(value)){
-                stringBuilder.append(" and "+string+" like ?");
-                list.add("%"+value+"%");
+            if (value != null && !"".equals(value)) {
+                stringBuilder.append(" and " + string + " like ?");
+                list.add("%" + value + "%");
             }
         }
 
         System.out.println(stringBuilder.toString());
 
 
-        int i =  template.queryForObject(stringBuilder.toString(),Integer.class,list.toArray());
+        int i = template.queryForObject(stringBuilder.toString(), Integer.class, list.toArray());
 //        System.out.println("总条数"+i);
         return i;
     }
@@ -124,6 +124,7 @@ public class UserDaoImpl implements UserDao {
 
     /**
      * 根据页码 获取 数据
+     *
      * @param start
      * @param rows
      * @param condition
@@ -139,12 +140,12 @@ public class UserDaoImpl implements UserDao {
         Set<String> strings = condition.keySet();
         for (String string : strings) {
             String value = condition.get(string)[0];
-            if("rows".equals(string)||"currentPage".equals(string)){
+            if ("rows".equals(string) || "currentPage".equals(string)) {
                 continue;
             }
-            if(value!=null && !"".equals(value)){
-                stringBuilder.append(" and "+string+" like ?");
-                list.add("%"+value+"%");
+            if (value != null && !"".equals(value)) {
+                stringBuilder.append(" and " + string + " like ?");
+                list.add("%" + value + "%");
             }
         }
 
@@ -152,7 +153,7 @@ public class UserDaoImpl implements UserDao {
         list.add(start);
         list.add(rows);
         System.out.println(stringBuilder.toString());
-          List<User> query = template.query(stringBuilder.toString(), new BeanPropertyRowMapper<User>(User.class),list.toArray());
+        List<User> query = template.query(stringBuilder.toString(), new BeanPropertyRowMapper<User>(User.class), list.toArray());
 //        System.out.println(query);
         return query;
     }

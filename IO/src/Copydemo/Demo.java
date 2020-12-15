@@ -24,7 +24,7 @@ class Demo {
 //        }
         int len = 0;
         byte[] bytes = new byte[1024];
-        while ((len=bis.read(bytes))!=-1){
+        while ((len = bis.read(bytes)) != -1) {
             bos.write(bytes);
         }
 
@@ -33,7 +33,7 @@ class Demo {
         bis.close();
 
         long e = System.currentTimeMillis();
-        System.out.println("耗时"+(s-e)); //20 3
+        System.out.println("耗时" + (s - e)); //20 3
 
     }
 }

@@ -7,10 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=GBK" pageEncoding="GBK" language="java" buffer="16kb" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+</head>
+<body>
+$END$
+</body>
 </html>

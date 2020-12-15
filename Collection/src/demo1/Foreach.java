@@ -21,17 +21,17 @@ public class Foreach {
     }
 
     private static void fun1() {
-        Collection<String> coll =  new ArrayList<>();
+        Collection<String> coll = new ArrayList<>();
         coll.add("sad");
-        for (String i:coll ) {
+        for (String i : coll) {
             System.out.println(i);
         }
     }
 
     private static void fun() {
-        int []arr = {1,3,43,43};
-         for (int i:arr ) {
-             System.out.println(i);
+        int[] arr = {1, 3, 43, 43};
+        for (int i : arr) {
+            System.out.println(i);
         }
     }
 }

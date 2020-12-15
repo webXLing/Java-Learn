@@ -49,7 +49,7 @@ public class Person implements Comparable {
     public int compareTo(Object o) {
 //        return 0; // 认为元素都是相同的 、
 //        自定义比较的规则  比较认的年龄
-        Person person = (Person)o;
+        Person person = (Person) o;
 
         return this.getAge() - person.getAge();// 年龄升序排序
     }

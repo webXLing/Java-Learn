@@ -19,7 +19,7 @@ public class Demo {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                System.out.println("run1"+Thread.currentThread().getName());
+                System.out.println("run1" + Thread.currentThread().getName());
             }
         }).start();
     }

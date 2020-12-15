@@ -5,17 +5,17 @@ public class MyLean {
     public static void main(String[] args) {
 
         /*
-        * == 与equals()的区别
-        * */
+         * == 与equals()的区别
+         * */
         String str = "nihao"; // 直接赋值  开辟一块内存空间
-        String str1 = new String("nihao") ;  //   利用构造方法实例化  开辟一块内存空间
+        String str1 = new String("nihao");  //   利用构造方法实例化  开辟一块内存空间
 
         String str2 = str1; // 指针
 
 
-        System.out.println(str==str1); // false
-        System.out.println(str==str2); // false
-        System.out.println(str2==str1);// false
+        System.out.println(str == str1); // false
+        System.out.println(str == str2); // false
+        System.out.println(str2 == str1);// false
 
         //  上面的例子说明了  java 中的 == 是内存地址相同 而不是内容的相同
 //        equals():是String 提供的一个方法 专门用与 字符串内容的比较
@@ -28,9 +28,9 @@ public class MyLean {
         String mystr1 = "xl"; //  匿名对象设置了 一个名字str 开辟一块堆内存 并且开辟了一块栈内存指向了该堆内存
         String mystr2 = "xl";
         String mystr3 = "xl";
-        System.out.println(mystr1==mystr2);
-        System.out.println(mystr1==mystr3);
-        System.out.println(mystr2==mystr3);
+        System.out.println(mystr1 == mystr2);
+        System.out.println(mystr1 == mystr3);
+        System.out.println(mystr2 == mystr3);
 
         System.out.println("--------------------------");
 
@@ -54,9 +54,9 @@ public class MyLean {
         String mydtr6 = new String("xl");
         String mystr7 = "xl";
 
-        System.out.println(mystr4==mystr5);
-        System.out.println(mydtr6==mystr4);
-        System.out.println(mydtr6==mystr5);
-        System.out.println(mystr7==mystr5);
+        System.out.println(mystr4 == mystr5);
+        System.out.println(mydtr6 == mystr4);
+        System.out.println(mydtr6 == mystr5);
+        System.out.println(mystr7 == mystr5);
     }
 }

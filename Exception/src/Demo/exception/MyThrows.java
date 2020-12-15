@@ -19,17 +19,17 @@ throws 处理异常对象 会抛给方法的调用者 最终交割iJVM 处理 =�
  */
 public class MyThrows {
     public static void main(String[] args) {
-        try{
+        try {
             System.out.println("1");
 
             fun("");
             System.out.println("报错之后"); // 前面出错了 后面的不执行
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
             System.out.println(e.toString());
             e.printStackTrace();
-        }finally {//无论是否出现异常  都会执行
-           //一般用于资源释放
+        } finally {//无论是否出现异常  都会执行
+            //一般用于资源释放
             System.out.println("2");
         }
         int i = get(); //100
@@ -40,16 +40,16 @@ public class MyThrows {
         int a = 1;
         try {
             return a;
-        }catch (Exception e){
+        } catch (Exception e) {
 
-        }finally {
-            a =100;
-            return a ;
+        } finally {
+            a = 100;
+            return a;
         }
     }
 
-    public static void fun (String str) throws FileNotFoundException {
-        if(!str.equals("c:\\\\efwe.txt")){
+    public static void fun(String str) throws FileNotFoundException {
+        if (!str.equals("c:\\\\efwe.txt")) {
             throw new FileNotFoundException("文件名不正确");
         }
     }

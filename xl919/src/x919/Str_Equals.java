@@ -6,18 +6,17 @@ public class Str_Equals {
         String str = "hello"; // 匿名对象设置了 一个名字str
 //        String str = null;
 //        从  str 可以调用String 的方法equals 说明str 其实就是String的匿名对象
-        if("hello".equals(str)){
+        if ("hello".equals(str)) {
             System.out.println("用户输入的是hello");
-        }else{
+        } else {
             System.out.println("用户输入错误");
         }
 
-        if(str.equals("hello")){  // NullPointerException 空指针异常
+        if (str.equals("hello")) {  // NullPointerException 空指针异常
             System.out.println("用户输入的是hello");
-        }else{
+        } else {
             System.out.println("用户输入错误");
         }
-
 
 
     }

@@ -22,10 +22,10 @@ public class findUser extends HttpServlet {
         UserService userService = new UserServiceImpl();
         User user = userService.findUser(id);
         System.out.println(user);
-        request.setAttribute("user",user);
+        request.setAttribute("user", user);
 
 //        转发到 编辑页面
-        request.getRequestDispatcher("/update.jsp").forward(request,response);
+        request.getRequestDispatcher("/update.jsp").forward(request, response);
 
 
     }

@@ -13,22 +13,22 @@ import java.util.Set;
 public class MapTest {
     public static void main(String[] args) {
 
-        Scanner sc =   new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("清除如一个字符串");
         String str = sc.next();
 
-        HashMap<Character,Integer> hashMap = new HashMap<>();
+        HashMap<Character, Integer> hashMap = new HashMap<>();
         for (char c : str.toCharArray()) {
-            if(hashMap.containsKey(c)){
-                hashMap.put(c,hashMap.get(c)+1);
-            }else{
-                hashMap.put(c,1);
+            if (hashMap.containsKey(c)) {
+                hashMap.put(c, hashMap.get(c) + 1);
+            } else {
+                hashMap.put(c, 1);
             }
 
         }
         Set<Character> characters = hashMap.keySet();
         for (Character character : characters) {
-            System.out.println(character+"="+hashMap.get(character));
+            System.out.println(character + "=" + hashMap.get(character));
         }
 
 //        System.out.println(hashMap);

@@ -17,14 +17,14 @@ public class Demo3 {
     private static void getAllFile(File fl) {
         File[] files = fl.listFiles();
         for (File file : files) {
-            if(file.isDirectory()){
+            if (file.isDirectory()) {
                 getAllFile(file);
-            }else{
-                if(file.getName().toLowerCase().endsWith(".java")){
+            } else {
+                if (file.getName().toLowerCase().endsWith(".java")) {
                     System.out.println(file);
                 }
             }
-            
+
         }
     }
 

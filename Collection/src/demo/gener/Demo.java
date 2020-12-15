@@ -8,6 +8,7 @@ public class Demo {
         fun();
         fun1();
     }
+
     /*
     使用 泛型  编译期（写代码）就能发现问题
      */
@@ -19,7 +20,7 @@ public class Demo {
 
         Iterator<String> iterator = list.iterator();
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
             System.out.println(iterator.next().length());
         }
@@ -38,14 +39,14 @@ public class Demo {
 
         Iterator iterator = list.iterator();
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
 //            每一项 是Object 类型
             //想使用String 特有的方法 获取length
 //            需要向下转型
             Object next = iterator.next();
-            if(next instanceof String){ // 不安全
+            if (next instanceof String) { // 不安全
                 String str = (String) next;
-                System.out.println("length"+str.length());
+                System.out.println("length" + str.length());
             }
             System.out.println(next);
         }

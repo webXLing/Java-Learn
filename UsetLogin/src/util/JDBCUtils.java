@@ -1,7 +1,6 @@
 package util;
 
 
-
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
@@ -36,7 +35,7 @@ public class JDBCUtils {
     }
 
     //    1.获取连接池对象
-    public static DataSource getDataSource(){
+    public static DataSource getDataSource() {
         return ds;
     }
 

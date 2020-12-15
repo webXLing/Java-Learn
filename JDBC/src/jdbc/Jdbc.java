@@ -5,7 +5,7 @@ import java.sql.*;
 //导入jar包
 //1.复制jar包到 目录
 //然后右键 add as libary
-public class Jdbc  {
+public class Jdbc {
 
     public static void main(String[] args) throws Exception {
 //        2. 注册驱动

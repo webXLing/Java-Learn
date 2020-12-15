@@ -20,9 +20,9 @@ public class UserListServlet extends HttpServlet {
         List<User> list = userService.findAll();
 
         //2.将查询到的list 存入request 域中
-        request.setAttribute("list",list);
+        request.setAttribute("list", list);
         //3.转发到list.jsp
-        request.getRequestDispatcher("/list.jsp").forward(request,response);
+        request.getRequestDispatcher("/list.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

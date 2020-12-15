@@ -13,7 +13,7 @@ package demo.day1019;
 public class InnerClassThread {
     public static void main(String[] args) {
 //        new MyThread().start(); //本来是这样
-        new Thread(){
+        new Thread() {
             @Override
             public void run() {
                 System.out.println("匿名内部类");
@@ -25,10 +25,10 @@ public class InnerClassThread {
 
 //        线程的接口 runnAble
 //        RunnAble rn = new RunnAbleImpl();  之前
-        Runnable r= new Runnable(){
+        Runnable r = new Runnable() {
             @Override
             public void run() {
-                System.out.println("匿名内部类 RunnAble"+Thread.currentThread().getName());
+                System.out.println("匿名内部类 RunnAble" + Thread.currentThread().getName());
                 for (int i = 0; i < 10; i++) {
                     System.out.println(i);
                 }

@@ -1,4 +1,5 @@
 package learn;
+
 /*
 java 8 开始  接口允许 默认方法
 
@@ -12,12 +13,12 @@ public default 返回值类型 方法名（参数列表）{
 public interface MyInterfaceDefault {
     public abstract void method1();
 
-//    设置 默认方法
-    public default void defaultMethod(){
+    //    设置 默认方法
+    public default void defaultMethod() {
         System.out.println("我是默认方法");
     }
 
-    public static void staticMethod(){
+    public static void staticMethod() {
         System.out.println("我只接口中的static方法");
     }
 }

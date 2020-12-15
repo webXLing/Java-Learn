@@ -12,14 +12,14 @@ package myset;
 public class kbcs {
     public static void main(String[] args) {
         add();
-        add(1,34,2);
-        add(2,3);
+        add(1, 34, 2);
+        add(2, 3);
     }
 
-    private static int add(int ...arr) {
+    private static int add(int... arr) {
         int res = 0;
         for (int i = 0; i < arr.length; i++) {
-            res +=arr[i];
+            res += arr[i];
         }
         System.out.println(res);
         return res;

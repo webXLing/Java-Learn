@@ -23,30 +23,30 @@ public class JdbcInsert {
             String sql = "insert into account values(null,'王五',6666)";
 
 //            3.获取connection 对象
-             conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
+            conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
 
 //            4.获取执行sql的satetment 对象
-             statement = conn.createStatement();
+            statement = conn.createStatement();
 
 //        5.执行sql
             int i = statement.executeUpdate(sql);
-            if(i>0){
+            if (i > 0) {
                 System.out.println("更新成功");
-            }else{
+            } else {
                 System.out.println("更新失败");
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
-                if(statement!=null){
+                if (statement != null) {
                     statement.close();// 释放资源
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
             }
             try {
-                if(conn!=null){
+                if (conn != null) {
                     conn.close();// 释放资源
                 }
             } catch (SQLException e) {

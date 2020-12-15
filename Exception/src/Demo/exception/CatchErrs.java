@@ -13,7 +13,7 @@ import java.util.ArrayList;
  */
 public class CatchErrs {
     public static void main(String[] args) {
-        int  [] arr = {1,34,43};
+        int[] arr = {1, 34, 43};
         System.out.println(arr[6]);
 
         ArrayList<String> arr1 = new ArrayList<>();

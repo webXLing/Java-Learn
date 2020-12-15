@@ -1,4 +1,5 @@
 package inner_class2.inner_class;
+
 /*
 局部类 如果想访问所在方法 局部变量 那么这个局部变量 必须是「有效的final」
 
@@ -13,20 +14,20 @@ package inner_class2.inner_class;
  */
 public class Myclass {
 
-    public void fun(){
+    public void fun() {
         int num = 10;
         num = 20;
-        class MyInner{
-            public void get(){
+        class MyInner {
+            public void get() {
 //                System.out.println(num); // 报错
             }
         }
     }
 
-    public void fun1(){
+    public void fun1() {
         int num = 10; // 后续num 不变则 默认为final
-        class MyInner{
-            public void get(){
+        class MyInner {
+            public void get() {
                 System.out.println(num); // 不报错
             }
         }

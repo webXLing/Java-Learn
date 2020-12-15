@@ -25,7 +25,7 @@ public class MyLinkedList {
         list.remove(2);
         list.pop();
 
-        if(!list.isEmpty()){
+        if (!list.isEmpty()) {
             System.out.println(list.getFirst()); // NoSuchElementException 没有元素
             System.out.println(list.getLast());
         }

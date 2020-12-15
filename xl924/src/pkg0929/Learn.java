@@ -3,40 +3,40 @@ package pkg0929;
 /**
  * 接口
  */
-class A{
-    public A(){
+class A {
+    public A() {
         System.out.println("wo shi A");
     }
 }
 
-class B extends A{
-    public B(){
+class B extends A {
+    public B() {
         System.out.println("wo shi B");
     }
 
-    public void fun(){
+    public void fun() {
         System.out.println("wo shi fun");
     }
 }
 
 
-abstract class Action{
-    public static final int EAT=1;
-    public static final int SLEEP=7;
-    public static final int WORK=5;
+abstract class Action {
+    public static final int EAT = 1;
+    public static final int SLEEP = 7;
+    public static final int WORK = 5;
 
-    public void command(int flag){
-        switch (flag){
+    public void command(int flag) {
+        switch (flag) {
             case EAT:
-            this.eat();
-            break;
+                this.eat();
+                break;
             case SLEEP:
                 this.sleep();
                 break;
             case WORK:
                 this.work();
                 break;
-            case EAT+ WORK:
+            case EAT + WORK:
                 this.eat();
                 this.work();
                 break;
@@ -44,15 +44,17 @@ abstract class Action{
     }
 
     public abstract void eat();
-    public abstract  void sleep();
+
+    public abstract void sleep();
+
     public abstract void work();
 }
 
-class Robot extends Action{
+class Robot extends Action {
     @Override
-     public void eat(){
-         System.out.println("机器人 充电");
-     }
+    public void eat() {
+        System.out.println("机器人 充电");
+    }
 
     @Override
     public void sleep() {
@@ -64,9 +66,10 @@ class Robot extends Action{
         System.out.println("机器人 工作");
     }
 }
-class Human extends Action{
+
+class Human extends Action {
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("人 吃饭");
     }
 
@@ -80,9 +83,10 @@ class Human extends Action{
         System.out.println("人 工作");
     }
 }
-class Pig extends Action{
+
+class Pig extends Action {
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("猪 吃饭");
     }
 
@@ -108,7 +112,7 @@ public class Learn {
 //        commond(new Robot());
     }
 
-    public static void commond (Action ac){
+    public static void commond(Action ac) {
         ac.command(Action.EAT);
         ac.command(Action.SLEEP);
         ac.command(Action.WORK);

@@ -1,7 +1,6 @@
 package FileInputStream.demo.demo;
 
 
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -48,8 +47,8 @@ public class Demo1 {
         byte[] bytes = new byte[1024];//缓冲 存放读取的数据 1024个字节 = 1kb
 
         int len = 0; // 读取的有效字节个数
-        while ((len=fis.read(bytes))!=-1){
-            System.out.println(new String(bytes,0,len));
+        while ((len = fis.read(bytes)) != -1) {
+            System.out.println(new String(bytes, 0, len));
         }
 
 

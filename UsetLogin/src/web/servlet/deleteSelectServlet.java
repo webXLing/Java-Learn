@@ -19,7 +19,7 @@ public class deleteSelectServlet extends HttpServlet {
         UserService userService = new UserServiceImpl();
         userService.deleteSelect(ids);
 
-        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+        response.sendRedirect(request.getContextPath() + "/findUserByPageServlet");
 
     }
 

@@ -12,7 +12,7 @@ import java.io.IOException;
 public class sessionServlet1 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        session.setAttribute("xl","12312312");
+        session.setAttribute("xl", "12312312");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

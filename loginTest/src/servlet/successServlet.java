@@ -18,10 +18,10 @@ public class successServlet extends HttpServlet {
         //返回响应
         response.setContentType("text/html;charset=utf-8");
 
-        response.getWriter().write("登录成功"+user.getUsername()+"欢迎您");
+        response.getWriter().write("登录成功" + user.getUsername() + "欢迎您");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        this.doPost(request,response);
+        this.doPost(request, response);
     }
 }

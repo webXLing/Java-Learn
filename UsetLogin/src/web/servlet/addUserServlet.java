@@ -26,14 +26,14 @@ public class addUserServlet extends HttpServlet {
         //封装User
         User user = new User();
         try {
-            BeanUtils.populate(user,parameterMap);
+            BeanUtils.populate(user, parameterMap);
 
             UserServiceImpl userService = new UserServiceImpl();
 
             userService.addUser(user);
 
             //跳转 到
-            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+            response.sendRedirect(request.getContextPath() + "/findUserByPageServlet");
 
         } catch (IllegalAccessException e) {
             e.printStackTrace();

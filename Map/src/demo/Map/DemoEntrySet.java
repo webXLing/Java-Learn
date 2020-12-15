@@ -12,14 +12,14 @@ import java.util.Set;
  */
 public class DemoEntrySet {
     public static void main(String[] args) {
-        Map<String,Integer> map =new HashMap<>();
-        map.put("小红",1);
-        map.put("小花",12);
-        map.put("小雷",11);
+        Map<String, Integer> map = new HashMap<>();
+        map.put("小红", 1);
+        map.put("小花", 12);
+        map.put("小雷", 11);
         Set<Map.Entry<String, Integer>> entries = map.entrySet();
 
         Iterator<Map.Entry<String, Integer>> iterator = entries.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             Map.Entry<String, Integer> nnext = iterator.next();
             System.out.println(nnext.getKey());
             System.out.println(nnext.getValue());

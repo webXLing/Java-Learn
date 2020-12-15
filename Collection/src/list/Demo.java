@@ -23,9 +23,9 @@ public class Demo {
         list.add("x43l");
         list.add("x43l");
 
-        list.add(1,"77");
+        list.add(1, "77");
         list.remove(2); // 删除
-        list.set(3,"jintian");// 替换
+        list.set(3, "jintian");// 替换
 
 //        list集合遍历 有三种方式
 //        1.for
@@ -35,7 +35,7 @@ public class Demo {
 
 //        使用迭代器
         Iterator<String> iterator = list.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 

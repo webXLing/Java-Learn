@@ -27,37 +27,37 @@ public class Demo1 {
             String sql2 = "update account set money = money + ? where id = ?";
 
 //            获取sql 对象
-             preparedStatement1 = connection.prepareStatement(sql1);
+            preparedStatement1 = connection.prepareStatement(sql1);
             preparedStatement2 = connection.prepareStatement(sql2);
 
 //            设置值
 //            张三 -500
-            preparedStatement1.setDouble(1,-500);
-            preparedStatement1.setInt(2,1);
+            preparedStatement1.setDouble(1, -500);
+            preparedStatement1.setInt(2, 1);
 
             // 李四 +500
-            preparedStatement2.setDouble(1,500);
-            preparedStatement2.setInt(2,2);
+            preparedStatement2.setDouble(1, 500);
+            preparedStatement2.setInt(2, 2);
 
             // 执行sql
             preparedStatement1.executeUpdate();
 
-            int i = 3/0;
+            int i = 3 / 0;
             preparedStatement2.executeUpdate();
             connection.commit(); // 提交事务
         } catch (Exception e) {
             // 回滚
             try {
-                if(connection!=null){
+                if (connection != null) {
                     connection.rollback();
                 }
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
             e.printStackTrace();
-        }finally {
-            JDBCutil.close(preparedStatement1,connection);
-            JDBCutil.close(preparedStatement2,connection);
+        } finally {
+            JDBCutil.close(preparedStatement1, connection);
+            JDBCutil.close(preparedStatement2, connection);
         }
     }
 }

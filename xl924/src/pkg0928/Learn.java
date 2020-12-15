@@ -2,39 +2,40 @@ package pkg0928;
 
 import java.util.Arrays;
 
-class Array{
-    private int [] data;
+class Array {
+    private int[] data;
     private int foot = 0;
-    public Array(int len){
-        if(len>0){
+
+    public Array(int len) {
+        if (len > 0) {
             this.data = new int[len];
-        }else{
-            this.data = new int [1];
+        } else {
+            this.data = new int[1];
         }
     }
 
-    public boolean add (int num){
-        if(this.foot<this.data.length){
-            this.data[this.foot++]= num;
+    public boolean add(int num) {
+        if (this.foot < this.data.length) {
+            this.data[this.foot++] = num;
             return true;
-        }else{
+        } else {
             return false;
         }
     }
 
-    public int [] getData(){
+    public int[] getData() {
         return this.data;
     }
 }
 
 // 排序数据
-class SortArray extends Array{
-    public SortArray(int len){
+class SortArray extends Array {
+    public SortArray(int len) {
         super(len);
     }
 
-//    覆写父类的getData
-    public int [] getData(){
+    //    覆写父类的getData
+    public int[] getData() {
         java.util.Arrays.sort(super.getData());
         return super.getData();
     }
@@ -42,16 +43,16 @@ class SortArray extends Array{
 
 //翻转数组
 class ReversArray extends Array {
-    public ReversArray(int len){
+    public ReversArray(int len) {
         super(len);
     }
 
-    public int [] getData(){
-        int [] arr = super.getData();
+    public int[] getData() {
+        int[] arr = super.getData();
         int center = arr.length / 2;
         int head = 0;
-        int tail = arr.length-1;
-        for (int i = 0; i <center ; i ++) {
+        int tail = arr.length - 1;
+        for (int i = 0; i < center; i++) {
             int tem = arr[head];
             arr[head] = arr[tail];
             arr[tail] = tem;
@@ -62,8 +63,9 @@ class ReversArray extends Array {
     }
 
 }
+
 public class Learn {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         ReversArray arr = new ReversArray(3);
         arr.add(10);
         arr.add(5);
@@ -73,8 +75,8 @@ public class Learn {
 //        for (int i = 0; i <arr1.length ; i++) {
 //            System.out.println(arr1[i]);
 //        }
-        int [] tem = arr.getData();
-        for (int i = 0; i <tem.length ; i++) {
+        int[] tem = arr.getData();
+        for (int i = 0; i < tem.length; i++) {
             System.out.println(tem[i]);
         }
 

@@ -54,8 +54,8 @@ public class Demo {
             如果第一个字节 是 0-127 那么就查询ASCII
             如果是负数 则和后面一个字节 组成一个中文
          */
-        byte [] bytes = {65,66,67,68,69}; //ABCDE
-        byte [] bytes1 = {-65,66,-67,68,69}; // 100柯侥E  -65和66组成一个中文 -67,68,组成一个中文
+        byte[] bytes = {65, 66, 67, 68, 69}; //ABCDE
+        byte[] bytes1 = {-65, 66, -67, 68, 69}; // 100柯侥E  -65和66组成一个中文 -67,68,组成一个中文
         fos.write(bytes1);
 
 
@@ -65,9 +65,9 @@ public class Demo {
             如果第一个字节 是 0-127 那么就查询ASCII
             如果是负数 则和后面一个字节 组成一个中文
          */
-        byte [] bytes2 = {65,66,67,68,69};
-        byte [] bytes3 = {-65,66,-67,68,69}; // 100柯侥E  -65和66组成一个中文 -67,68,组成一个中文
-        fos.write(bytes2,0,1);
+        byte[] bytes2 = {65, 66, 67, 68, 69};
+        byte[] bytes3 = {-65, 66, -67, 68, 69}; // 100柯侥E  -65和66组成一个中文 -67,68,组成一个中文
+        fos.write(bytes2, 0, 1);
 
         byte[] chars = "你好".getBytes(); //
         System.out.println(Arrays.toString(chars));

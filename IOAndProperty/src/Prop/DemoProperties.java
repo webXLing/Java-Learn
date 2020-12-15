@@ -19,11 +19,12 @@ public class DemoProperties {
 
         show3();
     }
-//    load
+
+    //    load
 //    将对应的文件 从硬盘中保存到 properties 中
     private static void show3() throws IOException {
 //        FileReader fr = new FileReader("IOAndProperty/prop1.txt");// 字符流不会乱码
-        FileInputStream fr =new FileInputStream("IOAndProperty/prop1.txt");//就会乱码
+        FileInputStream fr = new FileInputStream("IOAndProperty/prop1.txt");//就会乱码
         Properties properties = new Properties();
 
         properties.load(fr);
@@ -31,7 +32,7 @@ public class DemoProperties {
         Set<String> strings = properties.stringPropertyNames();//去除每个key
         for (String string : strings) {
             String property = properties.getProperty(string);
-            System.out.println(string +":" +property);
+            System.out.println(string + ":" + property);
         }
     }
 
@@ -53,16 +54,16 @@ public class DemoProperties {
     private static void show2() throws IOException {
         Properties prop = new Properties();
 
-        prop.setProperty("xl","18岁");
-        prop.setProperty("今天","10月23号");
-        prop.setProperty("加油","学java");
+        prop.setProperty("xl", "18岁");
+        prop.setProperty("今天", "10月23号");
+        prop.setProperty("加油", "学java");
 
 //
 //        FileWriter fw = new FileWriter("IOAndProperty/prop1.txt");
         FileOutputStream fw = new FileOutputStream("IOAndProperty/prop3.txt");
         // 字节流 就乱码了
 
-        prop.store(fw,"sabe by FileOutput");
+        prop.store(fw, "sabe by FileOutput");
 
         fw.close();
 
@@ -76,15 +77,15 @@ public class DemoProperties {
     private static void show() {
         Properties prop = new Properties();//默认为string 泛型
 
-        prop.setProperty("xl","18岁");
-        prop.setProperty("今天","10月23号");
-        prop.setProperty("加油","学java");
+        prop.setProperty("xl", "18岁");
+        prop.setProperty("今天", "10月23号");
+        prop.setProperty("加油", "学java");
 
         Set<String> strings = prop.stringPropertyNames();// 获取keys 在set集合中
 
         for (String string : strings) {
             String property = prop.getProperty(string);
-            System.out.println(string+":"+property);
+            System.out.println(string + ":" + property);
         }
 
     }

@@ -6,31 +6,198 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页">
-      <change afterPath="$PROJECT_DIR$/UsetLogin/src/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/src/test/TestPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/src/web/filter/loginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+    <list default="true" id="eab8cce2-9f0e-4c96-bfd0-45719f08001d" name="Default" comment="redis">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/web/filter/loginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/web/servlet/FindUserByPageServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UsetLogin/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UsetLogin/domain/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UsetLogin/test/TestPerson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UsetLogin/web/filter/loginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/UsetLogin/web/servlet/FindUserByPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UsetLogin/UsetLogin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/UsetLogin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/bzl/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/bzl/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/canlendar/CanlendarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/canlendar/CanlendarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/date/Demo01Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/date/Demo01Date.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/src/system/MySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/API/src/system/MySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/collections/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/collections/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/collections/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/collections/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo/gener/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo/gener/Gener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo/gener/Gener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo/gener/GenerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo/gener1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo/iterator/iter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo/iterator/iter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/demo1/Foreach.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/demo1/Foreach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/doudizhu/Doudizhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/doudizhu/Doudizhu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/list/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/list/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/list/MyVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/list/MyVector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/myset/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/myset/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/myset/MySet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/myset/MySet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/src/myset/kbcs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/src/myset/kbcs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/src/Demo/exception/CatchErrs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/CatchErrs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/src/Demo/exception/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/Fu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exception/src/Demo/exception/MyThrows.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exception/src/Demo/exception/MyThrows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/FileAndRecursion/src/recursion/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionalInterface/src/Supplier/demo/SupplierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalInterface/src/Supplier/demo/SupplierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FunctionalInterface/src/functionalInterface/demo/SupplierCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalInterface/src/functionalInterface/demo/SupplierCal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/BufferedInputStreamDemo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/BufferedInputStreamDemo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/BufferedReaderDemo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/BufferedReaderDemo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/src/Copydemo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IO/src/Copydemo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/FileInputStream/demo/demo/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/FileOutputStream/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/Prop/DemoProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/Prop/DemoProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IOAndProperty/src/Reader/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOAndProperty/src/Reader/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/c3p0-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/c3p0-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/druid/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/druid/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/EmpDemoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/Jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/Jdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/jdbc/JdbcUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/trasaction/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/trasaction/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/trasaction/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/trasaction/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/trasaction/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/trasaction/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/utila/JDBCutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/utila/JDBCutil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBC/src/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC/src/utils/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/DemoEntrySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/DemoEntrySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/DemoKeySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/DemoKeySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/HashMapSavePerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/HashMapSavePerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/MyDebug.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/MyDebug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/MyHashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/MyHashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map/src/demo/Map/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Map/src/demo/Map/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net/src/TVPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/src/TVPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net/src/TVPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/src/TVPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net/src/uploadFile/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/src/uploadFile/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net/src/uploadFile/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Net/src/uploadFile/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry/MyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry/MyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry1/secry/MyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry1/secry/MyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry2/secry/secry/MyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry2/secry/secry/MyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry/secry/MyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/ThreadSave/secry3/secry/secry/MyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/day1019/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/day1019/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/day1019/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/day1019/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/day1019/InnerClassThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/day1019/InnerClassThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/day1019/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/day1019/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/day1019/MyThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/day1019/MyThread1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/demo/secry/MyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/demo/secry/MyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/lambda/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/lambda/demo/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/src/lambda/demo/Runnableimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/src/lambda/demo/Runnableimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/domain/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/domain/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/test/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/test/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/filter/loginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/filter/loginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/CheckCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/CheckCodeServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/FindUserByPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/UserListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/UserListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/addUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteSelectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/deleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/findUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/findUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/loginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/loginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/src/web/servlet/updateUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UsetLogin/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/WEB-INF/classes/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/UsetLogin_war_exploded/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/dao/impl/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/UsetLogin/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/UsetLogin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsetLogin/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/UsetLogin/web/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XML/src/xlm/com/JsoupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/XML/src/xlm/com/JsoupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/login/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/Dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/cn/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/cn/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/download/DlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/download/DlServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/servlet/GetCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/servlet/GetCodeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/servlet/failServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/servlet/failServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/servlet/successServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/servlet/successServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/session/sessionServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/session/sessionServlet1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/test/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/src/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/src/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/web/img.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/web/img.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginTest/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/loginTest/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxf/src/learn920/Learn0926.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxf/src/learn920/Learn0926.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxf/src/learn920/Learn0929.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxf/src/learn920/Learn0929.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxf/src/learn920/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxf/src/learn920/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lxf/src/learn920/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/lxf/src/learn920/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet3/src/request/ServletDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet3/src/request/ServletDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet3/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/servlet3/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcatWeb/src/web/ServletDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcatWeb/src/web/ServletDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcatWeb/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tomcatWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcatWeb/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/tomcatWeb/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/lean1/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/lean1/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/DemoPrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/DemoPrivate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfaceDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivate.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn/MyInterfacePrivateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn4/Fu.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn4/Fu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1011/src/learn4/Zi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1011/src/learn4/Zi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo1/DemoFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo1/DemoFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo2/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo2/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo2/Nab.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo2/Nab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo2/sub/Anothor.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo2/sub/Anothor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo2/sub/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo2/sub/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo3/Arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo3/Arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo3/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo3/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/demo3/Weapoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/demo3/Weapoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_class/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_class/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_class/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_class/Outer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Myclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Myclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_class2/inner_class/Outer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_nm_class/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_nm_class/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl1012/src/inner_nm_class/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl1012/src/inner_nm_class/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl423/src/learn/day423/demo/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl423/src/learn/day423/demo/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl425/src/learn/day425/demo/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl425/src/learn/day425/demo/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl425/src/learn/day425/demo/demo01/Varable.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl425/src/learn/day425/demo/demo01/Varable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x0921/ProvinceCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x0921/ProvinceCity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x919/MyLean.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x919/MyLean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x919/StrMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x919/StrMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x919/StrResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x919/StrResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x919/Str_Equals.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x919/Str_Equals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x920/DeptEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x920/DeptEmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl919/src/x920/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl919/src/x920/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl923/src/learn/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl923/src/learn/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl923/src/learn/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl923/src/learn/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/learn0924/LinkDome.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/learn0924/LinkDome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/pkg0928/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/pkg0928/Learn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/pkg0929/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/pkg0929/Learn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/pkg1008/Learn.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/pkg1008/Learn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xl924/src/pkg1008/Learn1.java" beforeDir="false" afterPath="$PROJECT_DIR$/xl924/src/pkg1008/Learn1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +274,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/UsetLogin/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -456,11 +623,11 @@
     <list>
       <item itemvalue="JUnit.UserDaoTest.testLogin" />
       <item itemvalue="JUnit.All in loginTest" />
-      <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
       <item itemvalue="JUnit.TestPerson" />
       <item itemvalue="JUnit.TestPerson.test" />
       <item itemvalue="JUnit.TestPerson.test1" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.43" />
     </list>
     <recent_temporary>
       <list>
@@ -554,7 +721,13 @@
       <workItem from="1574258814670" duration="4826000" />
       <workItem from="1574303088431" duration="25000" />
       <workItem from="1574336745815" duration="5140000" />
-      <workItem from="1574602176325" duration="3008000" />
+      <workItem from="1574602176325" duration="3038000" />
+      <workItem from="1574753266392" duration="3000" />
+      <workItem from="1574770990308" duration="209000" />
+      <workItem from="1574858821702" duration="101000" />
+      <workItem from="1607931189536" duration="288000" />
+      <workItem from="1607931504829" duration="284000" />
+      <workItem from="1607931818698" duration="255000" />
     </task>
     <task id="LOCAL-00001" summary="设计 部门 - 雇员 类&#10;-个部门有多个 雇员&#10;一个 雇员 可能有 他的领导">
       <created>1568992410053</created>
@@ -591,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574263786100</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redis">
+      <created>1574608548719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574608548719</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,32 +797,33 @@
     <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;实现用户的增删改查操作" />
     <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;登录&#10;增删改查 用户&#10;批量删除" />
     <MESSAGE value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet+JSP+MySQL+JDBCTempleat+Duird+BeanUtilS+tomcat &#10;分页" />
+    <MESSAGE value="redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
-          <line>33</line>
-          <properties class="LinkLearn.Link.Node" method="&lt;init&gt;">
+          <line>34</line>
+          <properties class="LinkLearn.Link.Node">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
-          <line>98</line>
+          <line>99</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
-          <line>126</line>
+          <line>127</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/xl924/src/LinkLearn/LinkDemo.java</url>
-          <line>136</line>
+          <line>137</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -652,7 +833,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/UsetLogin/web/list.jsp</url>
-          <line>102</line>
+          <line>104</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -677,12 +858,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java</url>
-          <line>82</line>
+          <line>86</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/UsetLogin/src/service/impl/UserServiceImpl.java</url>
-          <line>84</line>
+          <line>88</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

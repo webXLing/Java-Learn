@@ -6,14 +6,14 @@ public class LambdaDemo {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                System.out.println("run1"+Thread.currentThread().getName());
+                System.out.println("run1" + Thread.currentThread().getName());
             }
         }).start();
 
 
 //        lambda 表达式
-        new Thread(()->{
-            System.out.println("run1++++"+Thread.currentThread().getName());
+        new Thread(() -> {
+            System.out.println("run1++++" + Thread.currentThread().getName());
         }).start();
     }
 

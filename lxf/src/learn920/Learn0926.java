@@ -14,6 +14,7 @@ public class Learn0926 {
         }
     }
 }
+
 class Person1 {
     private String name;
     private int age;

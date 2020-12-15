@@ -26,13 +26,13 @@ public class Demo {
         System.out.println("后续代码");
 
         try {
-            int [] arr = {1,3,3};
+            int[] arr = {1, 3, 3};
             System.out.println(arr[4]); //ArrayIndexOutOfBoundsException
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e);
         }
 
-        int [] arr1 = new int[1024*1024*1024]; // OutOfMemoryError 超过了jvm分配内存的最大值
+        int[] arr1 = new int[1024 * 1024 * 1024]; // OutOfMemoryError 超过了jvm分配内存的最大值
 
     }
 }

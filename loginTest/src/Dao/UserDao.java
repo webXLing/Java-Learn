@@ -16,10 +16,11 @@ public class UserDao {
 
     /**
      * 登录方法
+     *
      * @param loginUser 只有用户名和密码
      * @return user 包含用户的所有信息
      */
-    public User login(User loginUser){
+    public User login(User loginUser) {
         System.out.println("dao neibu");
         System.out.println(loginUser);
         try {
@@ -31,7 +32,7 @@ public class UserDao {
             System.out.println(user);
 
             return user;
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }

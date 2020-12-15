@@ -24,7 +24,8 @@ package learn.day425.demo.demo01;
 //private 也是一种封装 封装 继承 多态
 public class Varable {
     String str;//成员变量
-    public void set(int param){//方法参数就是局部变量
+
+    public void set(int param) {//方法参数就是局部变量
         System.out.println(param);//局部变量
         int num;
 //        System.out.println(num);//局部变量

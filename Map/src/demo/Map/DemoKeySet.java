@@ -12,15 +12,15 @@ import java.util.Set;
  */
 public class DemoKeySet {
     public static void main(String[] args) {
-        Map<String,Integer> map =new HashMap<>();
-        map.put("小红",1);
-        map.put("小花",12);
-        map.put("小雷",11);
+        Map<String, Integer> map = new HashMap<>();
+        map.put("小红", 1);
+        map.put("小花", 12);
+        map.put("小雷", 11);
 
         Set<String> strings = map.keySet();
 
         Iterator<String> iterator = strings.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(map.get(iterator.next()));
 
         }

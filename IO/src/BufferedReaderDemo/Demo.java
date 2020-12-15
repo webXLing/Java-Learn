@@ -20,8 +20,8 @@ public class Demo {
 
 //        System.out.println(bufferedReader.readLine()); //今天是个好日子 加油
 //        System.out.println(bufferedReader.readLine()); //今天是个好日子 加油
-        String str ;
-        while (( str = bufferedReader.readLine()) != null){
+        String str;
+        while ((str = bufferedReader.readLine()) != null) {
             System.out.println(str);
         }
     }

@@ -11,10 +11,10 @@ public class AccountDao {
         try {
             String sql = "UPDATE account SET money=money+? WHERE name=?";
             PreparedStatement pstmt = con.prepareStatement(sql);
-            pstmt.setDouble(1,money);
-            pstmt.setString(2,name);
+            pstmt.setDouble(1, money);
+            pstmt.setString(2, name);
             pstmt.executeUpdate();
-        }catch (Exception e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

@@ -28,36 +28,38 @@
         }
     </style>
     <script>
-<%--        ${pageContext.request.contextPath}/deleteServlet?id=${user.id}--%>
+        <%--        ${pageContext.request.contextPath}/deleteServlet?id=${user.id}--%>
+
         function deleteUser(id) {
 
-            if(confirm("您确认删除吗")){
-                location.href = '${pageContext.request.contextPath}/deleteServlet?id='+id
+            if (confirm("您确认删除吗")) {
+                location.href = '${pageContext.request.contextPath}/deleteServlet?id=' + id
 
             }
             console.log(1)
         }
-        window.onload=function () {
+
+        window.onload = function () {
             var btn = document.getElementById("btn");
-            btn.onclick=function (ev) {
+            btn.onclick = function (ev) {
                 var from = document.getElementById("from");
                 var flag = false
                 var names = document.getElementsByName("id");
-                for (var i = 0; i <names.length ; i++) {
-                    if(names[i].checked){
-                        flag=true
+                for (var i = 0; i < names.length; i++) {
+                    if (names[i].checked) {
+                        flag = true
                     }
                 }
-                if(flag && confirm("确认删除吗")){
+                if (flag && confirm("确认删除吗")) {
                     from.submit();
                 }
             }
 
             var first = document.getElementById("first");
 
-            first.onclick=function (ev) {
+            first.onclick = function (ev) {
                 var names = document.getElementsByName("id");
-                for (var i = 0; i <names.length ; i++) {
+                for (var i = 0; i < names.length; i++) {
                     names[i].checked = first.checked
                 }
             }
@@ -74,16 +76,16 @@
         <form class="form-inline" action="${pageContext.request.contextPath}/findUserByPageServlet" method="post">
             <div class="form-group">
                 <label for="exampleInputName2">姓名</label>
-                <input type="text" name="name" class="form-control" id="exampleInputName2" >
+                <input type="text" name="name" class="form-control" id="exampleInputName2">
             </div>
             <div class="form-group">
                 <label for="exampleInputName3">籍贯</label>
-                <input type="text" name="address" class="form-control" id="exampleInputName3" >
+                <input type="text" name="address" class="form-control" id="exampleInputName3">
             </div>
 
             <div class="form-group">
                 <label for="exampleInputEmail2">邮箱</label>
-                <input type="email" name="email" class="form-control" id="exampleInputEmail2"  >
+                <input type="email" name="email" class="form-control" id="exampleInputEmail2">
             </div>
             <button type="submit" class="btn btn-default">查询</button>
         </form>
@@ -100,37 +102,38 @@
     <form action="${pageContext.request.contextPath}/deleteSelectServlet" method="post" id="from">
 
 
-    <table border="1" class="table table-bordered table-hover">
-        <tr class="success">
-            <th><input type="checkbox" id="first"></th>
-            <th>编号</th>
-            <th>姓名</th>
-            <th>性别</th>
-            <th>年龄</th>
-            <th>籍贯</th>
-            <th>QQ</th>
-            <th>邮箱</th>
-            <th>操作</th>
-        </tr>
-
-        <c:forEach items="${pb.list}" var="user" varStatus="s">
-            <tr>
-                <td><input type="checkbox" name="id" value="${user.id}"></td>
-                <td>${s.count}</td>
-                <td>${user.name}</td>
-                <td>${user.gender}</td>
-                <td>${user.age}</td>
-                <td>${user.address}</td>
-                <td>${user.qq}</td>
-                <td>${user.email}</td>
-                <td><a class="btn btn-default btn-sm" href="${pageContext.request.contextPath}/findUser?id=${user.id}">修改</a>&nbsp;
-                    <a class="btn btn-default btn-sm" href="javascript:deleteUser(${user.id} )">删除</a></td>
+        <table border="1" class="table table-bordered table-hover">
+            <tr class="success">
+                <th><input type="checkbox" id="first"></th>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>籍贯</th>
+                <th>QQ</th>
+                <th>邮箱</th>
+                <th>操作</th>
             </tr>
 
-        </c:forEach>
+            <c:forEach items="${pb.list}" var="user" varStatus="s">
+                <tr>
+                    <td><input type="checkbox" name="id" value="${user.id}"></td>
+                    <td>${s.count}</td>
+                    <td>${user.name}</td>
+                    <td>${user.gender}</td>
+                    <td>${user.age}</td>
+                    <td>${user.address}</td>
+                    <td>${user.qq}</td>
+                    <td>${user.email}</td>
+                    <td><a class="btn btn-default btn-sm"
+                           href="${pageContext.request.contextPath}/findUser?id=${user.id}">修改</a>&nbsp;
+                        <a class="btn btn-default btn-sm" href="javascript:deleteUser(${user.id} )">删除</a></td>
+                </tr>
+
+            </c:forEach>
 
 
-    </table>
+        </table>
 
     </form>
 
@@ -145,8 +148,9 @@
                     </li>
                 </c:if>
                 <c:if test="${pb.currentPage!=1}">
-                    <li >
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage-1}&rows=3" aria-label="Previous">
+                    <li>
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage-1}&rows=3"
+                           aria-label="Previous">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>
@@ -154,10 +158,14 @@
 
                 <c:forEach begin="1" end="${pb.totalCPage}" var="i">
                     <c:if test="${pb.currentPage ==i}">
-                        <li class="active"><a  href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=3">${i}</a></li>
+                        <li class="active"><a
+                                href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=3">${i}</a>
+                        </li>
                     </c:if>
                     <c:if test="${pb.currentPage !=i}">
-                        <li><a  href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=3">${i}</a></li>
+                        <li>
+                            <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${i}&rows=3">${i}</a>
+                        </li>
                     </c:if>
 
                 </c:forEach>
@@ -170,8 +178,9 @@
                     </li>
                 </c:if>
                 <c:if test="${pb.currentPage!=pb.totalCPage}">
-                    <li >
-                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage+1}&rows=3" aria-label="Next">
+                    <li>
+                        <a href="${pageContext.request.contextPath}/findUserByPageServlet?currentPage=${pb.currentPage+1}&rows=3"
+                           aria-label="Next">
                             <span aria-hidden="true">&laquo;</span>
                         </a>
                     </li>

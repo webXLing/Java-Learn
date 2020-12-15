@@ -16,8 +16,8 @@ public class Demo {
 //        }
         int len = 0;
         byte[] bytes = new byte[1024];
-        while ((len=bs.read(bytes))!=-1){
-            System.out.println(new String(bytes,0,len));
+        while ((len = bs.read(bytes)) != -1) {
+            System.out.println(new String(bytes, 0, len));
         }
 
 

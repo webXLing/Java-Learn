@@ -49,12 +49,11 @@ public class Demo {
 //        System.out.println(read);
 
         int length = 0;
-        while ((length=fis.read())!=-1){
+        while ((length = fis.read()) != -1) {
             System.out.println((char) length);
         }
 
         fis.close();
-
 
 
     }

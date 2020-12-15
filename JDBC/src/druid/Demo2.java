@@ -20,19 +20,19 @@ public class Demo2 {
         try {
             preparedStatement = connection.prepareStatement(s);
 
-            preparedStatement.setString(1,"xl");
-            preparedStatement.setDouble(2,6666.6);
+            preparedStatement.setString(1, "xl");
+            preparedStatement.setDouble(2, 6666.6);
             int i = preparedStatement.executeUpdate();
 
         } catch (SQLException e) {
             e.printStackTrace();
-        }finally {
-            JDBCUtils.close(preparedStatement,connection);
+        } finally {
+            JDBCUtils.close(preparedStatement, connection);
         }
     }
 
     @Test
-    public void test(){
+    public void test() {
 //        throw new Error("error");
         System.out.println("test");
     }

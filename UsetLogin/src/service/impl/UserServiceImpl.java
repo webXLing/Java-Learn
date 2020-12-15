@@ -11,6 +11,7 @@ import java.util.Map;
 
 public class UserServiceImpl implements UserService {
     private UserDao dao = new UserDaoImpl();
+
     @Override
     public List<User> findAll() {
         //调用dao
@@ -22,7 +23,7 @@ public class UserServiceImpl implements UserService {
      */
     @Override
     public User login(User user) {
-        return dao.getUserByUsername(user.getUsername(),user.getPassword());
+        return dao.getUserByUsername(user.getUsername(), user.getPassword());
     }
 
     @Override
@@ -32,15 +33,17 @@ public class UserServiceImpl implements UserService {
 
     /**
      * 通过id  查询用
+     *
      * @param id
      */
     @Override
     public User findUser(String id) {
-       return dao.findUser(Integer.parseInt(id));
+        return dao.findUser(Integer.parseInt(id));
     }
 
     /**
      * 修改user数据
+     *
      * @param user
      */
     @Override
@@ -52,7 +55,7 @@ public class UserServiceImpl implements UserService {
      * deleteSelect 删除一组数据
      */
     @Override
-    public void deleteSelect(String [] ids) {
+    public void deleteSelect(String[] ids) {
         for (String id : ids) {
             dao.delete(id);
         }
@@ -61,12 +64,13 @@ public class UserServiceImpl implements UserService {
 
     /**
      * 分页查询
+     *
      * @param _currentPage
      * @param _rows
      * @param condition
      * @return
      */
-     @Override
+    @Override
     public PageBean<User> findUserByPage(String _currentPage, String _rows, Map<String, String[]> condition) {
         int currentPage = Integer.parseInt(_currentPage); // 当前页码
         int rows = Integer.parseInt(_rows); // 每页数量
@@ -78,24 +82,24 @@ public class UserServiceImpl implements UserService {
         userPageBean.setRows(rows);
 
         //2。调用 dao 查询总记录数
-       int totalCount =  dao.findTotalCount(condition);
+        int totalCount = dao.findTotalCount(condition);
         userPageBean.setTotalCount(totalCount);
         float res = totalCount / rows;
-         System.out.println(res);
+        System.out.println(res);
         int totalPage = (int) Math.ceil(res);
-         System.out.println(totalCount);
-         System.out.println(rows);
+        System.out.println(totalCount);
+        System.out.println(rows);
         userPageBean.setTotalCPage(totalPage);
 
         //3.获取某一页的数据
-        int start = (currentPage-1)*rows;
-       List<User> list = dao.findByPage(start,rows,condition );
+        int start = (currentPage - 1) * rows;
+        List<User> list = dao.findByPage(start, rows, condition);
         userPageBean.setList(list);
 
         return userPageBean;
     }
 
-    public void addUser(User user){
+    public void addUser(User user) {
         dao.addUser(user);
     }
 }

@@ -15,12 +15,12 @@ public class deleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("id");
 
-         UserService userService = new UserServiceImpl();
+        UserService userService = new UserServiceImpl();
 
         userService.delete(id);
 
 
-        response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+        response.sendRedirect(request.getContextPath() + "/findUserByPageServlet");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

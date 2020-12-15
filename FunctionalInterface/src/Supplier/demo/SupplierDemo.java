@@ -10,7 +10,7 @@ Interface Supplier<T>
 
  */
 public class SupplierDemo {
-    public static String getString(Supplier<String> sup){
+    public static String getString(Supplier<String> sup) {
         return sup.get();
     }
 

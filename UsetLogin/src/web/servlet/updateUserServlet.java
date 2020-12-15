@@ -25,12 +25,12 @@ public class updateUserServlet extends HttpServlet {
         User user = new User();
 
         try {
-            BeanUtils.populate(user,parameterMap);
+            BeanUtils.populate(user, parameterMap);
 
             UserService userService = new UserServiceImpl();
             userService.updataUser(user);
 
-            response.sendRedirect(request.getContextPath()+"/findUserByPageServlet");
+            response.sendRedirect(request.getContextPath() + "/findUserByPageServlet");
 
         } catch (IllegalAccessException e) {
             e.printStackTrace();

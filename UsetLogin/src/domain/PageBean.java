@@ -8,7 +8,7 @@ import java.util.List;
 public class PageBean<T> {
     private int totalCount; // 总条数
     private int totalCPage; // 总页码
-    private List<T> list ; // 每页数据
+    private List<T> list; // 每页数据
     private int currentPage; // 当前页码
     private int rows; // 每页显示条数
 

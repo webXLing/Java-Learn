@@ -11,7 +11,7 @@ public class Demo1 {
 
         MyThread1 mt = new MyThread1();
         mt.start(); //新线程Thread-0
-        System.out.println("当前线程"+Thread.currentThread().getName());//当前线程main
+        System.out.println("当前线程" + Thread.currentThread().getName());//当前线程main
 
     }
 }

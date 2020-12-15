@@ -22,8 +22,8 @@ public class MySet1 {
 
         Set<Person> hash1 = new HashSet<>();
 
-        Person ps1= new Person("小红",1);
-        Person ps2= new Person("小红",1);
+        Person ps1 = new Person("小红", 1);
+        Person ps2 = new Person("小红", 1);
         hash1.add(ps1);
         hash1.add(ps2);
         System.out.println(hash1);

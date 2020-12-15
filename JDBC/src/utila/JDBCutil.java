@@ -13,7 +13,7 @@ public class JDBCutil {
     private static String url;
     private static String user;
     private static String password;
-    private static String driver ;
+    private static String driver;
 
 
     //    配置的读取 只需读取一次 所以用静态代码块
@@ -32,10 +32,10 @@ public class JDBCutil {
 //            加载文件
             properties.load(new FileReader(path));
 
-            url=properties.getProperty("url");
-            user=properties.getProperty("user");
-            password=properties.getProperty("password");
-            driver=properties.getProperty("driver");
+            url = properties.getProperty("url");
+            user = properties.getProperty("user");
+            password = properties.getProperty("password");
+            driver = properties.getProperty("driver");
             System.out.println(driver);
 
 //            注册驱动
@@ -52,13 +52,13 @@ public class JDBCutil {
 
     //返回Connection 对象 连接 对象
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(url,user,password);
+        return DriverManager.getConnection(url, user, password);
     }
 
 
     //关闭资源
-    public static void close(Statement statement,Connection connection){
-        if(statement!=null){
+    public static void close(Statement statement, Connection connection) {
+        if (statement != null) {
             try {
                 statement.close();
             } catch (SQLException e) {
@@ -66,7 +66,7 @@ public class JDBCutil {
             }
         }
 
-        if(connection!=null){
+        if (connection != null) {
             try {
                 connection.close();
             } catch (SQLException e) {
@@ -76,9 +76,9 @@ public class JDBCutil {
     }
 
     //关闭资源
-    public static void close(ResultSet resultSet, Statement statement, Connection connection){
+    public static void close(ResultSet resultSet, Statement statement, Connection connection) {
 
-        if(resultSet!=null){
+        if (resultSet != null) {
             try {
                 resultSet.close();
             } catch (SQLException e) {
@@ -86,7 +86,7 @@ public class JDBCutil {
             }
         }
 
-        if(statement!=null){
+        if (statement != null) {
             try {
                 statement.close();
             } catch (SQLException e) {
@@ -94,7 +94,7 @@ public class JDBCutil {
             }
         }
 
-        if(connection!=null){
+        if (connection != null) {
             try {
                 connection.close();
             } catch (SQLException e) {
@@ -102,7 +102,6 @@ public class JDBCutil {
             }
         }
     }
-
 
 
 }

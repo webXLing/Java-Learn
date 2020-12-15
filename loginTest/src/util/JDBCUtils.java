@@ -1,7 +1,6 @@
 package util;
 
 
-
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
@@ -19,7 +18,7 @@ public class JDBCUtils {
     static {
 //        1.加载配置文件
         Properties properties = new Properties();
-            //使用  getClassLoader 获取字节输入流
+        //使用  getClassLoader 获取字节输入流
         try {
             properties.load(JDBCUtils.class.getClassLoader().getResourceAsStream("dconfig"));
 
@@ -35,8 +34,8 @@ public class JDBCUtils {
         }
     }
 
-//    1.获取连接池对象
-    public static DataSource getDataSource(){
+    //    1.获取连接池对象
+    public static DataSource getDataSource() {
         return ds;
     }
 

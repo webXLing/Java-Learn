@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebFilter( "/*")
+@WebFilter("/*")
 public class loginFilter implements Filter {
     public void destroy() {
     }
@@ -21,22 +21,22 @@ public class loginFilter implements Filter {
         System.out.println(requestURI);
         System.out.println(request.getRequestURL());
 
-        if(requestURI.contains("login.jsp")
-                ||requestURI.contains("/checkCodeServlet")
-                ||requestURI.contains("/loginServlet")
-                ||requestURI.contains("/css/")
-                ||requestURI.contains("/js/")
-                ||requestURI.contains("/font/")){
+        if (requestURI.contains("login.jsp")
+                || requestURI.contains("/checkCodeServlet")
+                || requestURI.contains("/loginServlet")
+                || requestURI.contains("/css/")
+                || requestURI.contains("/js/")
+                || requestURI.contains("/font/")) {
             chain.doFilter(req, resp);
 
-        }else{
+        } else {
             HttpSession session = request.getSession();
             Object user = session.getAttribute("user");
             if (user != null) {//没有登录
                 chain.doFilter(req, resp);
-            }else{
-                request.setAttribute("login_err","你还没登录哦!");
-                request.getRequestDispatcher("/login.jsp").forward(request,resp);
+            } else {
+                request.setAttribute("login_err", "你还没登录哦!");
+                request.getRequestDispatcher("/login.jsp").forward(request, resp);
             }
         }
     }

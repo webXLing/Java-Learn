@@ -35,8 +35,8 @@ public class TestPerson {
 
 //        map=>object
         Map<String, Object> map = new Hashtable<String, Object>();
-        map.put("name","xl");
-        map.put("age",1);
+        map.put("name", "xl");
+        map.put("age", 1);
         String s2 = objectMapper.writeValueAsString(map);
         System.out.println(s2);
 
@@ -47,6 +47,7 @@ public class TestPerson {
 
     /**
      * jason 对象 转化为java对象
+     *
      * @throws Exception
      */
     @Test
@@ -60,4 +61,4 @@ public class TestPerson {
 
     }
 
-    }
+}

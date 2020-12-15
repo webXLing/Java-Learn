@@ -18,7 +18,7 @@ Iterator迭代器 是一个接口  获取实现类的方式比较特殊 Collecti
 public class iter {
     public static void main(String[] args) {
 //        创建一个集合对象
-        Collection<String> coll =new ArrayList<>();
+        Collection<String> coll = new ArrayList<>();
         coll.add("A");
         coll.add("B");
         coll.add("C ");
@@ -27,7 +27,7 @@ public class iter {
         Iterator<String> iterator = coll.iterator(); // 多态  获取迭代器的实现类对象 ，并将指针（索引）指向集合-1的索引位置
 
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }

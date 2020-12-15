@@ -33,12 +33,12 @@ public class Demo {
         ArrayList<Integer> lsit = new ArrayList<>();
         lsit.add(10);
 
-        Collections.addAll(lsit,1,3);
+        Collections.addAll(lsit, 1, 3);
         Collections.shuffle(lsit);// 打乱
         Collections.sort(lsit, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o2-o1;
+                return o2 - o1;
             }
         }); // 默认升序
 
@@ -46,9 +46,9 @@ public class Demo {
 
 
         ArrayList<Person> list = new ArrayList<>();
-        list.add(new Person("小红",1));
-        list.add(new Person("小红2",10));
-        list.add(new Person("小红3",9));
+        list.add(new Person("小红", 1));
+        list.add(new Person("小红2", 10));
+        list.add(new Person("小红3", 9));
 
         Collections.sort(list);
 //        System.out.println(list);

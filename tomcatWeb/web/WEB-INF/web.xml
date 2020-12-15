@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-<!--    servlet 配置-->
+    <!--    servlet 配置-->
     <servlet>
-<!--        给类的名称起了一个名字-->
+        <!--        给类的名称起了一个名字-->
         <servlet-name>task</servlet-name>
         <servlet-class>web.ServletDemo</servlet-class>
     </servlet>
 
-<!--    做一个映射-->
+    <!--    做一个映射-->
     <servlet-mapping>
         <servlet-name>task</servlet-name>
         <url-pattern>/taslapo</url-pattern>
@@ -23,8 +23,8 @@
         <!--        给类的名称起了一个名字-->
         <servlet-name>demo</servlet-name>
         <servlet-class>web.ServletDemo2</servlet-class>
-<!--        第一次被访问的时候创建 load-on-startup 负数 默认为-1-->
-<!--        当web服务器 启动时创建 0 或正整数-->
+        <!--        第一次被访问的时候创建 load-on-startup 负数 默认为-1-->
+        <!--        当web服务器 启动时创建 0 或正整数-->
         <load-on-startup>5</load-on-startup>
     </servlet>
 

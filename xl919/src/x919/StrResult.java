@@ -1,10 +1,11 @@
 package x919;
+
 //    java string 内容不能改变
 public class StrResult {
     public static void main(String[] args) {
         String str = "xl"; // 开辟栈内存 存放str  开辟堆内存 存放xl
-        str=str+"jiayou"; // 先开辟新堆内存 存放jiayou  然后再 开辟一个堆内存 存放计算结果 xljiayou  str指向xljiayou 这样之前的堆内存将变为垃圾
-        str+="!!";
+        str = str + "jiayou"; // 先开辟新堆内存 存放jiayou  然后再 开辟一个堆内存 存放计算结果 xljiayou  str指向xljiayou 这样之前的堆内存将变为垃圾
+        str += "!!";
         System.out.println(str);
 
     }

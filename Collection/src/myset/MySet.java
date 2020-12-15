@@ -31,7 +31,7 @@ public class MySet {
         System.out.println(hash);
 
         Iterator<String> iterator = hash.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 

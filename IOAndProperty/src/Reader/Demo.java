@@ -34,8 +34,8 @@ public class Demo {
 
         char[] chars = new char[1024];
         int len = 0;
-        while ((len = fr.read(chars))!=-1){
-            System.out.print(new String(chars,0,len));
+        while ((len = fr.read(chars)) != -1) {
+            System.out.print(new String(chars, 0, len));
         }
     }
 }

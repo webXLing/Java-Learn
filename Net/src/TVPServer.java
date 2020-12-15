@@ -19,10 +19,10 @@ public class TVPServer {
         InputStream inputStream = accept.getInputStream();
         byte[] bytes = new byte[1024];
         int len = 0;
-        len=inputStream.read(bytes);
+        len = inputStream.read(bytes);
         System.out.println(len);
 
-        System.out.println(new String(bytes,0,len));
+        System.out.println(new String(bytes, 0, len));
 //        while ((len=inputStream.read(bytes))!=-1){ //读取客户端发送的数据
 //            System.out.println(1);
 //            System.out.println(new String(bytes,0,len));

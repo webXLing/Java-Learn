@@ -1,4 +1,5 @@
 package learn;
+
 /*
 java 8 开始  接口允许 默认方法
 
@@ -11,7 +12,7 @@ public default 返回值类型 方法名（参数列表）{
  */
 public class MyInterfacePrivateImpl implements MyInterfacePrivate {
 
-    public void test(){
+    public void test() {
         defaultMethod(); // 实现类可以直接访问 接口中的 默认方法
 //        defaultMethodprivate(); // 该方法在接口是private 所以不能直接访问
         MyInterfacePrivate.staticMethod1();

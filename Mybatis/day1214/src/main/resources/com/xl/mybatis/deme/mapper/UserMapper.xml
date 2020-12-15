@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="userMapper" >
+    <!--查 -->
+    <select id="findMyAll" resultType="com.xl.mybatis.demo.entity.User">
+        select * from user
+    </select>
+<!--    新增-->
+    <insert id="create" parameterType="com.xl.mybatis.demo.entity.User">
+        insert INTO user values (#{id},#{name},#{age},#{money})
+    </insert>
+<!--    修改-->
+    <update id="update" parameterType="com.xl.mybatis.demo.entity.User">
+        UPDATE `user` SET name=#{name} WHERE where id=#{id}
+    </update>
+
+<!--    删除-->
+    <delete id="delete" parameterType="java.lang.Integer">
+        DELETE FROM `user` WHERE id=#{id}
+    </delete>
+
+</mapper>

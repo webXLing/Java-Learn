@@ -6,10 +6,10 @@ package demo3;
 public class Hero {
     private String name;
     private int age;
-    private  Weapoon weapoon;
+    private Weapoon weapoon;
 
 
-    public Hero(String name,int age,Weapoon weapoon) {
+    public Hero(String name, int age, Weapoon weapoon) {
         this.age = age;
     }
 

@@ -18,7 +18,7 @@ public class MyHashtable {
         Hashtable<String, String> stringStringHashtable = new Hashtable<>();
         HashMap<String, String> stringStringHashtable1 = new HashMap<>();
 
-        stringStringHashtable1.put(null,null);
+        stringStringHashtable1.put(null, null);
         System.out.println(stringStringHashtable1);
 
     }

@@ -4,6 +4,6 @@ package lambda.demo;
 public class Runnableimpl implements Runnable {
     @Override
     public void run() {
-        System.out.println("run"+Thread.currentThread().getName());
+        System.out.println("run" + Thread.currentThread().getName());
     }
 }

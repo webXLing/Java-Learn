@@ -1,6 +1,7 @@
 package canlendar;
 
 import java.util.Calendar;
+
 // 获取默认 时区 的日历
 // public static final int YEAR  = 1;
 // public static final int MONTH  = 2;
@@ -22,16 +23,16 @@ public class CanlendarDemo {
         Calendar calendar = Calendar.getInstance();
 //        set(int field, int value)
 //        将给定的日历字段设置为给定的值。
-        calendar.set(Calendar.MONTH,10);
+        calendar.set(Calendar.MONTH, 10);
 //        同时设置年月日
-        calendar.set(2220,2,19);
+        calendar.set(2220, 2, 19);
 
         /*
         add(int field, int amount)
         添加或减去指定的时间给定日历领域，基于日历的规则。
 
          */
-        calendar.add(Calendar.YEAR,-1);
+        calendar.add(Calendar.YEAR, -1);
 
         int year = calendar.get(1);
         int month = calendar.get(2);

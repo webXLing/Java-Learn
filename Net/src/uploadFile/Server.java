@@ -11,7 +11,7 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8889);
-        
+
 //        通过accept 方法 获取请求的socket对象
 
         Socket accept = serverSocket.accept();
@@ -21,16 +21,16 @@ public class Server {
 
 //        判断存放图片的目录是否存在  不存在则 创建
         File filePath = new File("Net/img");
-        if(filePath.exists()){
+        if (filePath.exists()) {
             filePath.mkdir();
         }
 
         //保存文件
-        FileOutputStream os = new FileOutputStream(filePath+"/1.png");
+        FileOutputStream os = new FileOutputStream(filePath + "/1.png");
         int len = 0;
         byte[] bytes = new byte[1024];
-        while ((len=is.read(bytes))!=-1){
-            os.write(bytes,0,len);
+        while ((len = is.read(bytes)) != -1) {
+            os.write(bytes, 0, len);
         }
 //        回参数
         accept.getOutputStream().write("上传成功".getBytes());

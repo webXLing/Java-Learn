@@ -17,13 +17,13 @@ public class JdbcUpdate {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-             conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
+            conn = DriverManager.getConnection("jdbc:mysql:///test", "root", "123456");
 
-             statement = conn.createStatement();
+            statement = conn.createStatement();
             int i = statement.executeUpdate("update account set money = 777 where id=4");
-            if(i>0){
+            if (i > 0) {
                 System.out.println("更新数据成功");
-            }else{
+            } else {
                 System.out.println("更新数据失败");
             }
 
@@ -31,8 +31,8 @@ public class JdbcUpdate {
             e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
-        }finally {
-            if(statement!=null){
+        } finally {
+            if (statement != null) {
                 try {
                     statement.close();
                 } catch (SQLException e) {
@@ -40,7 +40,7 @@ public class JdbcUpdate {
                 }
             }
 
-            if(conn!=null){
+            if (conn != null) {
                 try {
                     conn.close();
                 } catch (SQLException e) {

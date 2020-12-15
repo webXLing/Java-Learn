@@ -9,7 +9,7 @@ import java.util.Iterator;
 不能创建对象是使用
 只能作为方法的参数使用
  */
-public class Demo  {
+public class Demo {
 
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<>();
@@ -28,12 +28,12 @@ public class Demo  {
 
     }
 
-//    定义所有类型的ArrayList 集合
+    //    定义所有类型的ArrayList 集合
     // 该方法  不知道 传给的ArrayList 的类型 就可以用泛型的通配符
     // 泛型没有 继承关系的
-   public  static void fun(ArrayList<?> list){
+    public static void fun(ArrayList<?> list) {
         Iterator<?> iterator = list.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             Object next = iterator.next(); // 取出来的 对象一定是Object 类型
             System.out.println(next);
         }
