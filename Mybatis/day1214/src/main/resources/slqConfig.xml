@@ -5,6 +5,10 @@
 
 <configuration>
     <properties resource="jdbc.properties"></properties>
+<!--    自定义别名-->
+    <typeAliases>
+        <typeAlias type="com.xl.mybatis.demo.entity.User" alias="user"></typeAlias>
+    </typeAliases>
     <environments default="dev">
         <environment id="dev">
 <!--            事务管理器-->
