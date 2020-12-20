@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.xl.mybatis.demo.dao.OrderMapper" >
+    <resultMap id="orderMap" type="order">
+<!--        column 数据库查出来的字段名-->
+<!--        property 实体中对应的属性名-->
+        <id column="oid" property="id"></id>
+        <result column="ordertime" property="ordertime"></result>
+        <result column="total" property="total"></result>
+<!--        <result column="uid" property="user.id"></result>-->
+<!--        <result column="name" property="user.name"></result>-->
+<!--        <result column="age" property="user.age"></result>-->
+<!--        <result column="money" property="user.money"></result>-->
+<!--        <result column="birthday" property="user.birthday"></result>-->
+        <!--property 实体Order中的属性值 private User user -->
+        <!--javaType 实体Order中的属性类别  User  这里配置了别名user -->
+        <association property="user" javaType="user">
+            <id column="uid" property="id"></id>
+            <result column="name" property="name"></result>
+            <result column="age" property="age"></result>
+            <result column="money" property="money"></result>
+            <result column="birthday" property="birthday"></result>
+        </association>
+    </resultMap>
+    <select id="myFindAll" resultMap="orderMap">
+        SELECT *,o.id oid from `order` o ,`user` u WHERE o.uid = u.id;
+    </select>
+</mapper>

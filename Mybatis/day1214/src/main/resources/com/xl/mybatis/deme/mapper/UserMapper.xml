@@ -29,4 +29,81 @@
     <select id="findById" parameterType="int" resultType="user">
         select * from user where age=#{age}
     </select>
+
+<!--    sql语句抽取-->
+    <sql id="slUser">
+        select * from user
+    </sql>
+
+<!--    根据条件查询-->
+    <select id="findByCondition" parameterType="user" resultType="user">
+        select * from user
+            <where>
+                <if test="id!=null">
+                    and id=#{id}
+                </if>
+                <if test="name!=null">
+                    and name=#{name}
+                </if>
+                <if test="name!=null">
+                    and name=#{name}
+                </if>
+            </where>
+    </select>
+
+<!--    foreach-->
+    <select id="findByIds" parameterType="list" resultType="user">
+          <include refid="slUser"></include>
+          <where>
+              <foreach collection="list" separator="," item="item" open="id in (" close=")">
+                #{item}
+              </foreach>
+          </where>
+    </select>
+
+    <insert id="setUserBirthday" parameterType="user">
+        insert INTO user values (#{id},#{name},#{age},#{money},#{birthday})
+    </insert>
+
+    <resultMap id="orderList" type="user">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="age" property="age"></result>
+        <result column="money" property="money"></result>
+        <result column="birthday" property="birthday"></result>
+
+<!--        封装集合-->
+<!--        property:集合名称 orderList-->
+<!--        ofType : 集合中的类型-->
+        <collection property="orderList" ofType="order">
+            <id column="oid" property="id"></id>
+            <result column="ordertime" property="ordertime"></result>
+            <result column="total" property="total"></result>
+        </collection>
+    </resultMap>
+<!--    1 对 多查询-->
+    <select id="selectUserOrder" resultMap="orderList">
+        SELECT *,o.id oid FROM `user` u, `order` o WHERE o.uid = u.id;
+    </select>
+
+<!--    &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--    1 对 多 user ->role-->
+    <resultMap id="roleList" type="user">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="age" property="age"></result>
+        <result column="money" property="money"></result>
+        <result column="birthday" property="birthday"></result>
+
+        <!--        封装集合-->
+        <!--        property:集合名称 roleList-->
+        <!--        ofType : 集合中的类型-->
+        <collection property="roleList" ofType="role">
+            <id column="role_id" property="id"></id>
+            <result column="rolename" property="rolename"></result>
+        </collection>
+    </resultMap>
+    <select id="selectUserRole" resultMap="roleList">
+        SELECT * FROM `user` u, `role` r , `user_role` ur WHERE u.id = ur.user_id AND r.id = ur.role_id;
+    </select>
 </mapper>

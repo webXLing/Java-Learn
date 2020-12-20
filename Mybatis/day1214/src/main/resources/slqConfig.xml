@@ -8,7 +8,23 @@
 <!--    自定义别名-->
     <typeAliases>
         <typeAlias type="com.xl.mybatis.demo.entity.User" alias="user"></typeAlias>
+        <typeAlias type="com.xl.mybatis.demo.entity.Order" alias="order"></typeAlias>
+        <typeAlias type="com.xl.mybatis.demo.entity.Role" alias="role"></typeAlias>
     </typeAliases>
+
+<!--    自定义类型处理器-->
+    <typeHandlers>
+        <typeHandler handler="com.xl.mybatis.demo.handel.DateHandel"></typeHandler>
+    </typeHandlers>
+
+<!--    配置分页助手-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+<!--            指定为 mysql-->
+            <property name="dialect" value="mysql"/>
+        </plugin>
+    </plugins>
+
     <environments default="dev">
         <environment id="dev">
 <!--            事务管理器-->
@@ -25,5 +41,9 @@
 <!--    加载映射文件-->
     <mappers>
         <mapper resource="com/xl/mybatis/deme/mapper/UserMapper.xml"></mapper>
+        <mapper resource="com/xl/mybatis/deme/mapper/OrderMapper.xml"></mapper>
+        <mapper resource="com/xl/mybatis/deme/mapper/RoleMapper.xml"></mapper>
+<!--        指定接口所在的包-->
+        <package name="com/xl/mybatis/deme/mapper"/>
     </mappers>
 </configuration>
