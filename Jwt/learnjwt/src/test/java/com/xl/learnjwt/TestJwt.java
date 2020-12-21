@@ -22,17 +22,17 @@ public class TestJwt {
                 .withClaim("userId", 1)
                 .withClaim("username", "xl")
                 .withExpiresAt(instance.getTime()) // 100s后过期
-                .sign(Algorithm.HMAC256("!@#sdasdas"));// 设置延签
+                .sign(Algorithm.HMAC256("#@!%$%#$asda32143"));// 设置延签
 
         System.out.println(token);
     }
     // 检验token
     @Test
     public  void test1(){
-        JWTVerifier jwtVerifier = JWT.require(Algorithm.HMAC256("!@#sdasdas")).build();
-        DecodedJWT verify = jwtVerifier.verify("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDg0NTQwOTQsInVzZXJJZCI6MSwidXNlcm5hbWUiOiJ4bCJ9.oBqP3tifinU7ABxtwS1qgfsokZB6juR1YpHnfbLV84Y");
-        Integer userId = verify.getClaim("userId").asInt();
-        String username = verify.getClaim("username").asString();
+        JWTVerifier jwtVerifier = JWT.require(Algorithm.HMAC256("#@!%$%#$asda32143")).build();
+        DecodedJWT verify = jwtVerifier.verify("eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoieGwiLCJleHAiOjE2MDkxNzEyNTksInVzZXJJZCI6IjEifQ.5zRSNgaTcQnCW7LkvYlDlkJAoT8YikaW26oHQZmW8Y4");
+        String userId = verify.getClaim("userId").asString();
+        String username = verify.getClaim("name").asString();
         System.out.println(userId+""+username);
     }
 }

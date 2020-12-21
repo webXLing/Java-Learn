@@ -4,6 +4,7 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTCreator;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
+import com.auth0.jwt.impl.PublicClaims;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
 import java.util.Calendar;
@@ -20,6 +21,7 @@ public class JWTUtils {
         instance.add(Calendar.DATE,7);
         JWTCreator.Builder builder = JWT.create();
         map.forEach((k,v)->{
+            System.out.println(k+""+v);
             builder.withClaim(k,v);
         });
         String token = builder

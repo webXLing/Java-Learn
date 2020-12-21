@@ -9,12 +9,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @Slf4j
-public class TestUserController {
+public class TestUserController extends BaseController{
 
     @Autowired
     private TestUserService testUserService;
@@ -42,11 +43,11 @@ public class TestUserController {
 
 
     @GetMapping("/test")
-    public Map<String,Object> test(String token){
+    public Map<String,Object> test(String token, HttpServletRequest request){
         HashMap<String, Object> map = new HashMap<>();
 
-
         map.put("msg","秦秋成功成功");
+        map.put("data",this.userId );
 
         return map;
     }
